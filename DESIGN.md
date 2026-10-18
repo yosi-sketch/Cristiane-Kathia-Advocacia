@@ -1,185 +1,146 @@
 ---
-name: "Rodrigues de Carvalho Advogados"
-description: "Azul-marinho e dourado, títulos Libre Caslon Text e leitura Montserrat."
+name: "Micaela Alves Advocacia"
+description: "Azul profundo e prata, serifas de alto contraste e leitura clara."
 colors:
-  brand-50: "#f8f3e9"
-  brand-100: "#f1e4ca"
-  brand-200: "#e9c990"
-  brand-300: "#efc27f"
-  brand-400: "#dfa85c"
-  brand-500: "#bb843b"
-  brand-600: "#946a2f"
-  brand-700: "#805b27"
-  brand-800: "#65471e"
-  brand-900: "#152b44"
-  brand-950: "#0b1a2f"
-  ink: "#10243a"
-  ink-soft: "#536174"
+  ink: "#09182f"
+  ink-soft: "#4c5b70"
   paper: "#ffffff"
-  ivory: "#f0f2f4"
-  linen: "#e5e9ed"
-  gold-muted: "#c7aa76"
-  dark-text: "#c2ccd8"
-  gold-frame: "rgb(199 170 118 / 28%)"
-  gold-underline: "rgb(199 170 118 / 55%)"
-  gold-caption-divider: "rgb(199 170 118 / 40%)"
-  assurance-divider: "rgb(255 255 255 / 12%)"
-  header-text: "#e4e9f0"
-  hero-text: "#cbd5e2"
-  dark-divider: "rgb(255 255 255 / 15%)"
-  footer-divider: "rgb(192 192 192 / 25%)"
+  ivory: "#f5f6f8"
+  linen: "#e9edf2"
+  silver: "#b8c1cd"
+  dark-text: "#c5ceda"
+  brand-50: "#f0f3f7"
+  brand-100: "#dfe5ed"
+  brand-200: "#c8d1de"
+  brand-300: "#b8c1cd"
+  brand-400: "#95a3b5"
+  brand-500: "#697c94"
+  brand-600: "#516783"
+  brand-700: "#394c63"
+  brand-800: "#24374f"
+  brand-900: "#10223b"
+  brand-950: "#09182f"
 typography:
   display:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "2.25rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
-  display-wide:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+  display-tablet:
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "3rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
   display-desktop:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
-    fontSize: "3.25rem"
-    fontWeight: 700
+    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontSize: "3.5rem"
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "2rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
   headline-tablet:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "2.5rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
   headline-desktop:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "3rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.18
     letterSpacing: "-0.025em"
-  pillar-title:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+  area-title:
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.55rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.25
     letterSpacing: "-0.025em"
-  pillar-title-tablet:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+  area-title-tablet:
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.8rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   title:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.5rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: "2rem"
     letterSpacing: "-0.025em"
-  institutional-title:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "14px"
-    fontWeight: 600
-    lineHeight: "24px"
-    letterSpacing: "0.08em"
   dialog-title:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.7rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   dialog-title-tablet:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.875rem"
-    fontWeight: 700
+    fontWeight: 600
     lineHeight: 1.25
     letterSpacing: "-0.025em"
-  info-value-tablet:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
-    fontSize: "1.7rem"
-    fontWeight: 400
-    lineHeight: "2rem"
-    letterSpacing: "-0.025em"
-  info-value:
-    fontFamily: "Libre Caslon Text, Georgia, serif"
+  assurance:
+    fontFamily: "Bodoni Moda, Georgia, serif"
     fontSize: "1.5rem"
     fontWeight: 400
     lineHeight: "2rem"
     letterSpacing: "-0.025em"
-  team-caption:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "14px"
-    fontWeight: 600
-    lineHeight: "24px"
-    letterSpacing: "0.02em"
-  label-small:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "12px"
-    fontWeight: 600
-    lineHeight: "16px"
-    letterSpacing: "0.08em"
-  info-label:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "11px"
+  assurance-tablet:
+    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontSize: "1.7rem"
     fontWeight: 400
-    lineHeight: "20px"
+    lineHeight: "2rem"
+    letterSpacing: "-0.025em"
   body:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "15px"
     fontWeight: 400
     lineHeight: "28px"
-  body-hero-tablet:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+  body-wide:
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "16px"
     fontWeight: 400
     lineHeight: "32px"
   body-small:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "14px"
     fontWeight: 400
     lineHeight: "28px"
-  compact-body:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+  body-compact:
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "13px"
     fontWeight: 400
     lineHeight: "24px"
-  navigation:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "15px"
-    fontWeight: 600
-    lineHeight: 1.5
   label:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "14px"
     fontWeight: 600
     lineHeight: "20px"
   label-large:
-    fontFamily: "Montserrat, system-ui, sans-serif"
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "16px"
     fontWeight: 600
     lineHeight: "24px"
-  label-compact:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "10px"
+  label-small:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "12px"
     fontWeight: 600
-    lineHeight: "15px"
-    letterSpacing: "0.13em"
-  label-inverse:
-    fontFamily: "Montserrat, system-ui, sans-serif"
-    fontSize: "10px"
+    lineHeight: "16px"
+  navigation:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "14px"
     fontWeight: 600
-    lineHeight: "15px"
-    letterSpacing: "0.14em"
+    lineHeight: 1.5
 rounded:
   none: "0"
-  sm: "4px"
   sheet: "4px 4px 0 0"
 spacing:
   icon-gap: "8px"
@@ -195,46 +156,27 @@ spacing:
   section-desktop: "128px"
 components:
   button-primary:
-    backgroundColor: "{colors.gold-muted}"
-    textColor: "{colors.brand-950}"
+    backgroundColor: "{colors.brand-800}"
+    textColor: "{colors.paper}"
     typography: "{typography.label}"
     rounded: "{rounded.none}"
     padding: "14px 24px"
   button-primary-hover:
-    backgroundColor: "{colors.brand-100}"
-    textColor: "{colors.brand-950}"
-  button-primary-small:
-    backgroundColor: "{colors.gold-muted}"
-    textColor: "{colors.brand-950}"
-    typography: "{typography.label-small}"
-    rounded: "{rounded.none}"
-    padding: "12px 20px"
-  button-primary-large:
-    backgroundColor: "{colors.gold-muted}"
+    backgroundColor: "{colors.brand-700}"
+    textColor: "{colors.paper}"
+  button-on-dark:
+    backgroundColor: "{colors.silver}"
     textColor: "{colors.brand-950}"
     typography: "{typography.label}"
     rounded: "{rounded.none}"
     padding: "16px 20px"
-  button-primary-large-tablet:
-    backgroundColor: "{colors.gold-muted}"
+  button-on-dark-hover:
+    backgroundColor: "{colors.brand-100}"
     textColor: "{colors.brand-950}"
-    typography: "{typography.label-large}"
-    rounded: "{rounded.none}"
-    padding: "16px 28px"
-  button-inverse:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.brand-800}"
-    typography: "{typography.label-inverse}"
-    rounded: "{rounded.none}"
-    padding: "16px 24px"
   navigation:
-    backgroundColor: "{colors.brand-950}"
-    textColor: "{colors.header-text}"
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink-soft}"
     typography: "{typography.navigation}"
-  pillar-row:
-    backgroundColor: "{colors.ivory}"
-    textColor: "{colors.ink}"
-    padding: "32px 0"
   address-panel:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
@@ -244,106 +186,79 @@ components:
     textColor: "{colors.ink}"
     rounded: "{rounded.sheet}"
     padding: "28px"
-  dialog-tablet:
-    backgroundColor: "{colors.ivory}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
-    padding: "40px"
-    width: "36rem"
 ---
-
-# Design System: Rodrigues de Carvalho Advogados
+# Design System: Micaela Alves Advocacia
 
 ## Overview
 
-**Creative North Star: "Atenção e clareza"**
+**Creative North Star: "Escuta, estratégia e presença"**
 
-Azul-marinho e dourado dão presença institucional ao logo e à fotografia real da equipe. Libre Caslon Text 700 organiza os títulos; Montserrat sustenta a leitura e os controles. A presença mais firme e premium combina dourado fosco e controles retos. Superfícies claras, divisórias finas e controles planos favorecem uma comunicação atenta e compreensível.
+A identidade parte do logo original: azul profundo no wordmark e prata no monograma. Superfícies brancas preservam seus detalhes; faixas azuis dão presença ao retrato e à comunicação institucional. A estrutura existente é preservada conforme o pedido.
 
-Registro extraído de app/globals.css, app/page.tsx, app/layout.tsx, app/components/GlowingButton.tsx app/lib/brand.ts e app/lib/reviews.ts. O frontmatter é normativo; .impeccable/design.json reúne extensões e exemplos. PRODUCT.md e a direção vigente fornecem as restrições confirmadas.
+Bodoni Moda acompanha as serifas e o contraste entre traços grossos e finos da marca. Manrope organiza textos, controles e contatos com legibilidade. Espaço, linhas finas e formas retas sustentam a composição.
+
+**Key Characteristics:**
+
+- Logo e fotografia integrais, nas proporções originais.
+- Azul, prata e superfícies claras em todas as seções.
+- Títulos serifados e corpo sem serifa.
+- Controles planos, foco visível e movimento reduzido.
 
 ## Colors
 
-Brand-950 mantém o azul-marinho original em cabeçalho, hero, Sobre, chamada final e rodapé; brand-900 sustenta faixa informativa, legenda da equipe e etapas. Brand-400 preserva o dourado original da marca e a seleção de texto. Gold-muted é o dourado fosco das ações, dos ícones e das ênfases sobre azul; hover do CTA compartilhado usa brand-100. Brand-700 segue como dourado de texto sobre fundos claros.
+O azul principal foi amostrado dos pixels opacos do wordmark. A prata de origem está registrada em `.impeccable/palette-source.json`; a variação clara `silver` permite leitura sobre azul. `brand-800` e `brand-700` atendem botões e links sobre fundos claros. `ink-soft` sustenta o texto secundário; `dark-text` atende as superfícies escuras. `paper`, `ivory` e `linen` separam áreas de leitura. As cores normativas estão no frontmatter e no tema Tailwind 4 de `app/globals.css`.
 
-Ivory é a base fria de leitura; linen identifica o FAQ e paper, as avaliações e o painel de endereço. Dark-text atende corpo do Sobre, faixa informativa e rodapé; header-text e hero-text mantêm os papéis específicos. Sobre tem títulos brancos e ênfases gold-muted.
+**The Logo Contrast Rule.** O logo original permanece sobre branco; clarear o fundo preserva a marca sem recolorir seu arquivo.
 
-Gold-frame (28%) contorna o logo do Sobre e sua legenda; gold-underline (55%) marca o link do Sobre; gold-caption-divider (40%) separa a fotografia da legenda no hero. Essas transparências e assurance-divider (12%) são escolhas intencionais do código, não cores sólidas adicionais. Dark-divider (15%) e footer-divider (25%) preservam as divisórias das faixas escuras.
+Os sete pares principais verificados têm contraste de texto acima de 4,5:1; o menor é 6,39:1. Evidência em `.impeccable/review/micaela-contrast-checks.json`. O valor prateado de origem é referência do asset, não um texto pequeno aplicado sobre branco.
 
 ## Typography
 
-Títulos usam Libre Caslon Text, com Georgia e serif como alternativas; o carregamento oferece 400/700. A regra :is(h1,h2,h3).font-display aplica 700; spans serifados da faixa informativa conservam 400. Montserrat permanece nos textos e controles.
+Bodoni Moda é carregada via `next/font` nos pesos 400/500/600/700. Títulos h1/h2/h3 usam 600; spans serifados informativos usam 400. Manrope atende corpo e controles. As fontes são servidas pela própria aplicação.
 
-Hero: 36/48/52px (2.25/3/3.25rem); Heading compartilhado: 32/40/48px (2/2.5/3rem), ambos com entrelinha 1.18 e patamares em 640/1024px. Os passos 2rem, 2.5rem e 3.25rem são intencionais, inclusive diante de avisos consultivos do detector. Pilares: 1.55/1.8rem, peso 700; diálogo: 1.7/1.875rem, peso 700. Títulos menores seguem os papéis do frontmatter. H1 e H2 têm quebra balanceada.
+H1 usa 36/48/56px em mobile/640/1024px; a etapa de 56px é intencional e corresponde ao título desktop revisado. Heading compartilhado usa 32/40/48px, com entrelinha 1,18 e tracking −0,025em. Áreas usam 1,55/1,8rem. Diálogos usam 1,7/1,875rem. FAQ e chamada final usam 30/36px.
 
-Wordmark do Sobre: Montserrat 14px, 600, caixa alta, entrelinha 24px e tracking 0.08em. Nome sob a fotografia: Montserrat 14px, 600, entrelinha 24px, tracking 0.02em, alinhado à esquerda. Faixa informativa: Libre Caslon Text 400 em 1.5/1.7rem, descrições de 11px. CTA pequeno do cabeçalho: 12px, 600, caixa alta, tracking 0.08em.
+Textos principais usam 15px/28px; hero passa a 16px/32px em 640px. Textos de apoio usam 13px/24px ou 14px/28px. Ações usam peso 600 e altura mínima de 44px. Navegação desktop é 14px semibold; informações menores usam 12px. Títulos têm quebra balanceada.
 
 ## Layout
 
-Contêiner centralizado de até 80rem, com margens internas de 20px, 32px em 640px e 48px em 1024px. Seções principais usam espaços verticais de 80/112/128px; hero, FAQ e chamada final têm intervalos próprios.
+Contêiner de até 80rem, com margens internas de 20/32/48px. Seções principais usam espaços verticais de 80/112/128px. Cabeçalho fixo no topo durante a rolagem: 88px no celular e 96px a partir de 640px. Logo de 210px abaixo de 360px, 235px depois e 280px em 640px.
 
-A base tem uma coluna. Em 640px, pilares usam ícone de 48px, texto e ação; a faixa informativa usa três colunas. Em 768px, o cabeçalho do atendimento admite alinhamento horizontal. Em 1024px, entram navegação desktop e duas colunas. O hero usa 1.05fr/0.95fr; no celular, a fotografia vem depois do texto, inteira, limitada a 520px.
-
-Cabeçalho no topo com 100px de altura e 112px em 640px. Logo de 152px abaixo de 360px, 170px a partir desse ponto e 190px em 640px; no rodapé, 240px. Altura sempre automática. Diálogo na base no celular; centralizado em 640px, até 36rem de largura e 90dvh de altura, com rolagem interna.
-
-Avaliações passam de uma coluna para três em 768px, com divisórias finas horizontais no celular e verticais entre colunas. A revisão premium aceita a QA existente em sete larguras sem transbordamento; esta edição documental não executou nova QA.
+Uma coluna no celular e tablet; o hero ganha duas colunas em 1024px, proporção 1,05fr/0,95fr. O retrato integral tem largura máxima de 400px. A navegação desktop entra em 1024px. Os serviços são linhas com ícone, texto e ação em 640px. As capturas e medidas confirmam ausência de overflow em 320, 390, 518, 768, 1024 e 1440px.
 
 ## Elevation & Depth
 
-Superfícies, divisórias e fotografia produzem profundidade. A sombra estrutural card fica no diálogo: 0 18px 48px rgb(11 26 47 / 18%). A camada de fundo usa ink a 55% e desfoque de 8px. Pilares, painéis e CTAs permanecem planos.
+A profundidade vem das superfícies, das divisórias finas e da fotografia. A sombra estrutural fica no diálogo: `0 18px 48px rgb(9 24 47 / 18%)`. Seu fundo de proteção usa tinta a 55% e desfoque de 8px. Botões, serviços e fotografia permanecem planos.
 
 ## Shapes
 
-Painéis, fotografia, botões e ícones têm contornos retos (radius 0). O diálogo conserva apenas os cantos superiores de 4px no celular; em 640px todos os cantos são retos. Divisórias claras usam ink a 10–20%; faixas escuras seguem os tokens específicos.
+Cantos retos em botões, fotografia e painéis. Diálogo com cantos superiores de 4px no celular e todos retos em 640px. Divisórias discretas sobre fundos claros e brancas/prateadas translúcidas nas superfícies azuis. O asset nunca recebe máscara que corte o retrato.
 
 ## Components
 
-### Buttons
+O botão compartilhado `PrimaryButton` usa azul e texto branco em superfícies claras; no hero e demais contextos escuros, prata clara e texto azul. Hover muda apenas as cores em 200ms. Os tamanhos sm/md/lg preservam altura mínima de 44px e fonte de 12/14/16px conforme o contexto. A chamada final usa botão branco com texto azul.
 
-GlowingButton combina fundo e borda gold-muted, texto brand-950, cantos retos e altura mínima de 44px. Espaçamentos sm/md/lg estão no frontmatter; lg aumenta fonte e margens em 640px. Hover de 200ms clareia fundo e borda para brand-100; foco de 2px em gold-muted com offset de 3px, sujeito às regras de contexto do cabeçalho/hero. A chamada final mantém botão branco reto, texto brand-800 e deslocamento de 2px no hover. Foco global de 2px com offset de 4px.
+Navegação branca com texto azul secundário, sublinhado e foco visível. No celular, menu abre sob o cabeçalho e fecha por Escape ou escolha de seção. FAQ usa `details/summary` nativos. O painel de endereço é branco, com borda fina e ação de mapa.
 
-### Navigation
+Três áreas abrem diálogos com título, descrição, quatro tópicos e CTA contextual. O foco vai para fechar, permanece entre os controles, retorna ao acionador e o fundo fica inerte. Escape, clique fora e fechar encerram o diálogo; a página bloqueia rolagem enquanto aberto.
 
-Links desktop usam Montserrat semibold, texto claro e gold-muted no hover, com sublinhado revelado em 180ms. Abaixo de 1024px, botão de 44px abre menu sobre ivory em 220ms; Escape e escolha de seção fecham o menu. O link de salto aparece ao receber foco.
+O retrato recebe uma revelação discreta por `clip-path` em 900ms; o restante do conteúdo já está visível por padrão. `MotionConfig` respeita movimento reduzido; a regra CSS correspondente desativa a revelação e a rolagem suave. Seleção de texto, caret, foco e barra de rolagem usam a paleta.
 
-### Institutional pillars and dialogs
-
-Orientação jurídica, Análise individual e Acompanhamento jurídico são pilares institucionais, sem especialidades inventadas. Linhas reúnem ícone SVG, título, resumo e ação. Diálogos têm quatro tópicos, CTA contextual, botão de fechar de 40px e transição de 240ms.
-
-O foco inicial vai para fechar; o fundo fica inerte e a rolagem é bloqueada. Tab/Shift+Tab circulam nos controles; Escape, fechar e clique fora encerram o diálogo e devolvem o foco ao acionador. A QA existente confirma inércia, foco inicial, circulação e retorno nos três pilares; Escape está implementado.
-
-### FAQ and address
-
-FAQ sobre linen usa details/summary nativos. Painel de endereço branco com borda discreta, espaçamento de 28/40px, traço dourado de 112 × 4px e ação de mapa com cantos retos. Instagram permite quebra em qualquer ponto. Contatos vêm de app/lib/brand.ts; não há campos de formulário.
-
-### About and Google reviews
-
-Sobre usa azul-marinho, corpo claro dark-text, títulos brancos e ênfases gold-muted. O logo original transparente permanece integral dentro de moldura fina sem preenchimento adicional; link com sublinhado gold-underline.
-
-Três avaliações públicas reais, cada uma com autoria, 5 estrelas e link direto: Jessiana Emerick, Giovani Rodrigues e Keyla Monteiro Lopes. Conteúdo em app/lib/reviews.ts, fontes em .impeccable/google-reviews-sources.json e agregado em app/lib/brand.ts: 5,0/5, 11 avaliações, conferidas em 17/10/2026. Não há sincronização ao vivo. O texto dos relatos permanece no módulo de dados, sem reprodução nesta documentação ou nos exemplos.
-
-Composição plana sobre paper, três colunas com divisórias em 768px e pilha no celular; citações Montserrat 18px/32px, peso 500, autores 14px/600 e links individuais. Sem fotos de avaliadores ou widgets simulados.
-
-### Identity and motion
-
-Preservar public/rodrigues-de-carvalho-logo.png (1774 × 887) e public/rodrigues-de-carvalho-equipe.png (680 × 453), integrais e nas proporções originais. Logo sobre azul-marinho. Origens e hashes permanecem nos registros de assets existentes.
-
-A fotografia é revelada em 1s, de clip-path inset(0 0 12% 0) até a imagem inteira. Blocos editoriais usam initial=false. MotionConfig respeita reducedMotion="user"; a preferência reduzida desativa a revelação, reduz durações CSS a 0.01ms e usa rolagem automática.
-
-A revisão .impeccable/review/rodrigues/premium/review.md tem disposition: ship, sem ajustes materiais. Tamanhos e transparências intencionais estão documentados conforme o código.
+A seção do Google usa composição editorial plana e link ao perfil informado. Exibe nota agregada 5,0 e 119 avaliações conforme o material fornecido. Três trechos literais com autoria ficam em colunas separadas por divisórias em 768px e empilhados no celular. A estrela acompanha somente a nota agregada; notas individuais não são inferidas. Citações usam Manrope 16px/32px e autores 14px semibold. A seleção e a data de registro ficam explícitas. Dados e contatos vêm de `app/lib/brand.ts`; não existe formulário ou envio automático de mensagens.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** preservar o logo e a fotografia originais, sem corte nem distorção.
-- **Do** usar dourado escuro para texto nas superfícies claras e texto azul-marinho nos CTAs dourados.
-- **Do** manter foco visível, fundo inerte, retorno do foco e movimento reduzido.
-- **Do** usar apenas dados confirmados e os três pilares institucionais.
-- **Do** manter avaliações reais com autoria, link direto e data de consulta, usando app/lib/reviews.ts.
+- Do preservar o logo e o retrato originais, sem corte ou distorção.
+- Do usar o logo sobre branco para manter a leitura dos traços azuis e prateados.
+- Do usar prata clara e texto azul no CTA sobre fundo escuro; sobre fundo claro, CTA azul com texto branco.
+- Do manter foco visível, fundo inerte e retorno do foco nos diálogos.
+- Do manter as áreas e os contatos centralizados no conteúdo da aplicação.
 
 ### Don't:
 
-- **Don't** recolorir os assets ou acrescentar brilho aos CTAs planos.
-- **Don't** ocultar conteúdo até a rolagem ou exigir animação para acessar informações.
-- **Don't** inventar especialidades, credenciais, notas, depoimentos ou promessas de resultado.
+- Don't introduzir cores fora da paleta extraída e de suas variações tonais.
+- Don't usar o logo escuro diretamente sobre azul-marinho.
+- Don't inventar nota, depoimentos, formação, experiência ou promessas de resultado.
+- Don't ocultar conteúdo até a rolagem ou exigir animação para acessar informações.

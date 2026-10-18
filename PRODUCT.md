@@ -1,4 +1,4 @@
-# Rodrigues de Carvalho Advogados
+# Micaela Alves Advocacia
 
 <!-- impeccable:product-schema 1 -->
 
@@ -6,33 +6,32 @@
 web
 
 ## Users
-Pessoas que procuram serviços jurídicos em Manhumirim, Minas Gerais.
+Pessoas que procuram orientação em Família, Criminal e Violência Doméstica em Igarapé, Minas Gerais.
 
 ## Product Purpose
-Apresentar o escritório, explicar os pilares do atendimento e facilitar o agendamento pelo WhatsApp.
+Apresentar a atuação de Micaela Alves e facilitar o contato pelo WhatsApp.
 
 ## Positioning
-Advocacia com atenção, clareza e responsabilidade. Comunicação acessível e profissional, sem promessas de resultado.
+Escuta atenta e estratégia jurídica para proteger direitos, com clareza, sigilo e responsabilidade. Sem promessas de resultado.
 
 ## Operating Context
-Página em pt-BR. Início, atendimento, três pilares com detalhes em diálogos, Sobre, etapas, FAQ, acesso às avaliações do Google, contato e rodapé. Sem formulário de coleta de dados.
+Página em pt-BR, com início, três frentes de atuação com diálogos, Sobre, etapas, FAQ, acesso ao Google, contatos e rodapé. Sem formulário ou envio automático de mensagens.
 
 ## Capabilities and Constraints
-Next.js 16.3.5, React 19.2.8, Tailwind CSS 4 com tema em @theme inline no app/globals.css. Fontes Libre Caslon Text 400/700 e Montserrat via next/font. Dados em app/lib/brand.ts.
+Next.js 16.3.5, React 19.2.8, Tailwind CSS 4 com tema em app/globals.css. Bodoni Moda e Manrope via next/font. Dados e links em app/lib/brand.ts. Preservar a estrutura e os comportamentos existentes.
 
 ## Brand Commitments
-Logo e fotografia reais, copiados integralmente dos anexos e preservados nas proporções originais. Referência azul-marinho #0b1a2f com dourado #dfa85c amostrados do primeiro anexo; variações acessíveis para texto sobre superfícies claras. Refinamento solicitado: presença mais firme e premium, dourado fosco #c7aa76, Sobre em azul-marinho, títulos Libre Caslon Text em 700 e controles retos. Logo original transparente em 1774 × 887 e fotografia em 680 × 453.
+Logo original em public/micaela-alves-logo.png (2171 × 724), retrato em public/micaela-alves-retrato.png (633 × 729). Cópias integrais dos anexos, sem corte ou distorção. Logo azul e prata sobre branco. Paleta amostrada: azul #09182f e prata #767b89; variações tonais claras asseguram contraste no fundo azul. Títulos serifados de alto contraste acompanham o desenho do wordmark.
 
 ## Evidence on Hand
-- Empresa: Rodrigues de Carvalho Advogados.
-- Cidade: Manhumirim, Minas Gerais.
-- Telefone/WhatsApp: (33) 99998-8635; destino 5533999988635.
-- Localização: Rua João Maroni, Edifício Shopping Center, sala 08, Centro, Manhumirim — MG, 36970-000.
-- O material menciona números 10 e 15; número e andar não foram publicados até confirmação.
-- Instagram institucional: https://www.instagram.com/rodriguesdecarvalho.advogados/.
-- Google verificado em 17/10/2026 no perfil CID 17098868018538276325: nota 5,0 e 11 avaliações. Três trechos reais, de Jessiana Emerick, Giovani Rodrigues e Keyla Monteiro Lopes, com links diretos. Dados em app/lib/reviews.ts; fontes em .impeccable/google-reviews-sources.json.
-- Origens e hashes em .impeccable/asset-origins.json; cópias idênticas aos anexos.
-- Publicação institucional enviada pelo usuário em 17/10/2026: escritório fundado há mais de três décadas; experiência, formação especializada, profundidade acadêmica, ética, integridade, rigor técnico, transparência e responsabilidade. Usada para adaptar o texto de Sobre. A captura da publicação não deve ser incluída no site; não inferir ano de fundação, nomes, cursos ou distinções específicas.
+- Micaela Alves Advocacia; OAB/MG 220.712.
+- Família e Criminal, com ênfase em Violência Doméstica.
+- Telefone/WhatsApp: (31) 99734-1475; destino 5531997341475.
+- Av. Gov. Valadares, 440 — Centro, Igarapé — MG, 32900-000.
+- Instagram: https://www.instagram.com/micaelaalvesadv/.
+- Nota 5,0 e 119 avaliações segundo o material enviado em 18/10/2026. CID 12951392828992382296 presente nos links fornecidos. Três trechos literais de Rosiane Resende, Bruna Gabriela Ferreira e Marco Aurélio em app/lib/reviews.ts. Notas individuais e links diretos não informados; sem integração ao vivo.
+- E-mail e domínio não informados. O horário 24h do perfil não foi convertido em promessa de resposta ou atendimento presencial ininterrupto.
+- Fontes e hashes em .impeccable/asset-origins.json; cores em .impeccable/palette-source.json.
 
 ## Product Principles
-Não inventar e-mail, especialidades, nomes/OAB dos profissionais, anos de experiência, horários completos, modalidade on-line ou domínio. Sem confirmação das áreas, a seção apresenta pilares de atendimento: orientação jurídica, análise individual e acompanhamento jurídico. NEXT_PUBLIC_SITE_URL só recebe domínio real. Avaliações verificadas e linkadas individualmente, sem integração ao vivo ou relatos inventados. Nenhum contato é enviado automaticamente.
+Não inventar depoimentos, notas, formação, experiência, e-mail ou serviços específicos além das áreas informadas. Descrições das áreas são institucionais. Manter foco visível, teclado, diálogos com fundo inerte e retorno de foco, preferência por movimento reduzido e leitura responsiva. NEXT_PUBLIC_SITE_URL somente com domínio real.

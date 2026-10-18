@@ -1,16 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Libre_Caslon_Text, Montserrat } from "next/font/google";
+import { Bodoni_Moda, Manrope } from "next/font/google";
 import { brand } from "./lib/brand";
 import "./globals.css";
 
-const displayFont = Libre_Caslon_Text({
+const displayFont = Bodoni_Moda({
   variable: "--font-display-face",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
-const bodyFont = Montserrat({
+const bodyFont = Manrope({
   variable: "--font-body",
   subsets: ["latin"],
   display: "swap",
@@ -19,15 +19,15 @@ const bodyFont = Montserrat({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.logo;
-const title = "Rodrigues de Carvalho Advogados | Manhumirim, MG";
-const description = "Orientação jurídica com atenção, clareza e responsabilidade em Manhumirim, Minas Gerais. Conheça a Rodrigues de Carvalho Advogados. Agendamentos: (33) 99998-8635.";
+const title = "Micaela Alves Advocacia | Família e Criminal em Igarapé, MG";
+const description = "Advocacia de Família e Criminal em Igarapé, MG, com ênfase em Violência Doméstica. Escuta, estratégia e atenção aos seus direitos. Micaela Alves — OAB/MG 220.712.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: [brand.businessName, brand.name, "advogados em Manhumirim", "escritório de advocacia em Manhumirim", "orientação jurídica", "Manhumirim MG"],
-  icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }] },
+  keywords: [brand.businessName, brand.name, "advogada em Igarapé", "Direito de Família", "Direito Criminal", "Violência Doméstica", "Igarapé MG"],
+  icons: { icon: [{ url: brand.logo, type: "image/png" }] },
   openGraph: {
     title,
     description,
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 1774,
-            height: 887,
+            width: 2171,
+            height: 724,
             alt: brand.businessName,
           },
         ]
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0b1a2f",
+  themeColor: "#09182f",
 };
 
 export default function RootLayout({

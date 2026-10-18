@@ -1,22 +1,16 @@
-// Trechos de avaliações públicas conferidas no perfil Google em 17/10/2026.
-// Links obtidos na opção Compartilhar de cada avaliação; sem sincronização ao vivo.
+// Trechos literais do material do Google enviado pelo cliente em 18/10/2026.
+// O material não informa notas nem links individuais de cada relato.
 export const googleReviews = [
   {
-    author: "Jessiana Emerick",
-    rating: 5,
-    excerpt: "Fui muito bem atendido desde o primeiro contato.",
-    url: "https://maps.app.goo.gl/JgCDBvUW9Pb1zQxR9",
+    author: "Rosiane Resende",
+    excerpt: "Paciente para explicar toda a situação e todas as possibilidades sobre o caso.",
   },
   {
-    author: "Giovani Rodrigues",
-    rating: 5,
-    excerpt: "Recomendo fortemente seus serviços!",
-    url: "https://maps.app.goo.gl/DnXJguALhsLmwDVn8",
+    author: "Bruna Gabriela Ferreira",
+    excerpt: "Uma profissional extremamente competente, atenciosa e, acima de tudo, humana.",
   },
   {
-    author: "Keyla Monteiro Lopes",
-    rating: 5,
-    excerpt: "Excelentes no que fazem, atenciosos com os clientes.",
-    url: "https://maps.app.goo.gl/KnAv9mJuJH16k1sw9",
+    author: "Marco Aurélio",
+    excerpt: "Desde o primeiro atendimento, demonstrou muito profissionalismo, competência e atenção aos detalhes do meu caso.",
   },
 ] as const;

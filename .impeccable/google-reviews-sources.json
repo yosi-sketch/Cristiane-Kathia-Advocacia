@@ -1,26 +1,23 @@
 {
-  "profile": "https://www.google.com/maps?cid=17098868018538276325",
-  "checkedAt": "2026-10-17",
+  "profile": "https://www.google.com/maps?cid=12951392828992382296",
+  "providedOn": "2026-10-18",
   "timezone": "America/Sao_Paulo",
+  "count": 119,
   "rating": 5,
-  "count": 11,
-  "method": "Leitura do perfil público no Google Maps; URLs diretas copiadas do diálogo Compartilhar de cada relato.",
   "reviews": [
     {
-      "author": "Jessiana Emerick",
-      "rating": 5,
-      "url": "https://maps.app.goo.gl/JgCDBvUW9Pb1zQxR9"
+      "author": "Rosiane Resende",
+      "excerpt": "Paciente para explicar toda a situação e todas as possibilidades sobre o caso."
     },
     {
-      "author": "GIOVANI RODRIGUES",
-      "rating": 5,
-      "url": "https://maps.app.goo.gl/DnXJguALhsLmwDVn8"
+      "author": "Bruna Gabriela Ferreira",
+      "excerpt": "Uma profissional extremamente competente, atenciosa e, acima de tudo, humana."
     },
     {
-      "author": "Keyla Monteiro Lopes",
-      "rating": 5,
-      "url": "https://maps.app.goo.gl/KnAv9mJuJH16k1sw9"
+      "author": "Marco Aurélio",
+      "excerpt": "Desde o primeiro atendimento, demonstrou muito profissionalismo, competência e atenção aos detalhes do meu caso."
     }
   ],
-  "note": "Trechos curtos e fiéis aos relatos; nenhuma foto dos avaliadores foi copiada e não há sincronização ao vivo."
+  "method": "Nota agregada 5,0, quantidade 119 e trechos literais do Google enviados pelo usuário em Texto colado.txt. Sem verificação independente ao vivo. Sem notas ou URLs individuais inferidas.",
+  "providedFile": "C:/Users/matheus/.codex/attachments/199370c8-5df8-4cee-a513-24101f7ee2ab/Texto colado.txt"
 }

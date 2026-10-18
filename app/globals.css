@@ -1,54 +1,53 @@
 @import "tailwindcss";
 
-/* Tailwind CSS 4 configura o tema aqui, sem tailwind.config legado.
-   Pixels da referência: azul #0b1a2f e dourado #dfa85c.
-   Neutros e variantes de dourado ampliam o contraste em fundos claros. */
+/* Tailwind 4: tema centralizado em CSS. Azul profundo e prata amostrados
+   dos pixels opacos do logo; variações tonais sustentam o contraste. */
 :root {
   color-scheme: light;
-  --brand-ink: #10243a;
-  --brand-ink-soft: #536174;
-  --brand-paper: #f0f2f4;
+  --brand-ink: #09182f;
+  --brand-ink-soft: #4c5b70;
+  --brand-paper: #f5f6f8;
 }
 @theme inline {
-  --font-display: var(--font-display-face), "Libre Caslon Text", Georgia, serif;
-  --font-sans: var(--font-body), "Montserrat", system-ui, sans-serif;
-  --color-ink: #10243a;
-  --color-ink-soft: #536174;
+  --font-display: var(--font-display-face), "Bodoni Moda", Georgia, serif;
+  --font-sans: var(--font-body), "Manrope", system-ui, sans-serif;
+  --color-ink: #09182f;
+  --color-ink-soft: #4c5b70;
   --color-paper: #ffffff;
-  --color-ivory: #f0f2f4;
-  --color-linen: #e5e9ed;
-  --color-gold-muted: #c7aa76;
-  --color-dark-text: #c2ccd8;
-  --color-brand-50: #f8f3e9;
-  --color-brand-100: #f1e4ca;
-  --color-brand-200: #e9c990;
-  --color-brand-300: #efc27f;
-  --color-brand-400: #dfa85c;
-  --color-brand-500: #bb843b;
-  --color-brand-600: #946a2f;
-  --color-brand-700: #805b27;
-  --color-brand-800: #65471e;
-  --color-brand-900: #152b44;
-  --color-brand-950: #0b1a2f;
-  --shadow-card: 0 18px 48px rgb(11 26 47 / 18%);
+  --color-ivory: #f5f6f8;
+  --color-linen: #e9edf2;
+  --color-silver: #b8c1cd;
+  --color-dark-text: #c5ceda;
+  --color-brand-50: #f0f3f7;
+  --color-brand-100: #dfe5ed;
+  --color-brand-200: #c8d1de;
+  --color-brand-300: #b8c1cd;
+  --color-brand-400: #95a3b5;
+  --color-brand-500: #697c94;
+  --color-brand-600: #516783;
+  --color-brand-700: #394c63;
+  --color-brand-800: #24374f;
+  --color-brand-900: #10223b;
+  --color-brand-950: #09182f;
+  --shadow-card: 0 18px 48px rgb(9 24 47 / 18%);
 }
-html { scroll-padding-top: 7rem; scroll-behavior: smooth; }
+html { scroll-padding-top: 6rem; scroll-behavior: smooth; }
 img { max-width: 100%; }
 body {
   background: var(--brand-paper);
   color: var(--brand-ink);
-  font-family: var(--font-body), "Montserrat", system-ui, sans-serif;
+  font-family: var(--font-body), "Manrope", system-ui, sans-serif;
   caret-color: var(--color-brand-700);
 }
-::selection { background: var(--color-brand-400); color: var(--color-brand-950); }
+::selection { background: var(--color-silver); color: var(--color-brand-950); }
 h1, h2 { text-wrap: balance; }
 .font-display { font-weight: 400; letter-spacing: -0.025em; }
-:is(h1, h2, h3).font-display { font-weight: 700; }
+:is(h1, h2, h3).font-display { font-weight: 600; }
 .nav-link {
   position: relative;
   padding-block: 0.75rem;
   color: var(--color-ink-soft);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-weight: 600;
   transition: color 180ms ease;
 }
@@ -62,56 +61,55 @@ h1, h2 { text-wrap: balance; }
   transform-origin: left;
   transition: transform 180ms ease;
 }
-.nav-link:hover { color: var(--color-brand-700); }
+.nav-link:hover { color: var(--color-brand-950); }
 .nav-link:hover::after { transform: scaleX(1); }
-.brand-header .nav-link { color: #e4e9f0; }
-.brand-header .nav-link:hover { color: var(--color-gold-muted); }
-.brand-header .nav-link::after { background: var(--color-gold-muted); }
-:is(.brand-header, .brand-hero) :focus-visible { outline-color: var(--color-brand-400); }
-.brand-hero .text-ink { color: white; }
-.brand-hero .text-ink-soft { color: #cbd5e2; }
-.brand-hero .text-brand-700 { color: var(--color-gold-muted); }
+.brand-hero .text-ink { color: var(--color-paper); }
+.brand-hero .text-ink-soft { color: var(--color-dark-text); }
+.brand-hero .text-brand-700 { color: var(--color-silver); }
 .brand-hero .border-ink\/10 { border-color: rgb(255 255 255 / 15%); }
-.brand-hero a.text-ink:hover { color: var(--color-brand-400); }
+.brand-hero a.text-ink:hover { color: var(--color-silver); }
+:is(.brand-hero, .brand-assurance, .brand-about, .brand-footer) .primary-button {
+  background: var(--color-silver);
+  border-color: var(--color-silver);
+  color: var(--color-brand-950);
+}
+:is(.brand-hero, .brand-assurance, .brand-about, .brand-footer) .primary-button:hover {
+  background: var(--color-brand-100);
+  border-color: var(--color-brand-100);
+}
 .footer-link { transition: color 180ms ease; }
 .footer-link:hover { color: white; text-decoration: underline; text-underline-offset: 4px; }
 :focus-visible { outline: 2px solid var(--color-brand-700); outline-offset: 4px; }
-:is(.brand-footer, .bg-brand-950, .bg-brand-900, .bg-brand-700) :focus-visible { outline-color: var(--color-gold-muted); }
+:is(.brand-footer, .bg-brand-950, .bg-brand-900) :focus-visible { outline-color: var(--color-silver); }
 .brand-assurance { background: var(--color-brand-900); border-color: rgb(255 255 255 / 12%); }
 .brand-assurance .text-ink-soft { color: var(--color-dark-text); }
-.brand-assurance .text-brand-700 { color: var(--color-gold-muted); }
+.brand-assurance .text-brand-700 { color: var(--color-silver); }
 .brand-assurance .border-ink\/10 { border-color: rgb(255 255 255 / 15%); }
 .brand-about { background: var(--color-brand-950); color: white; }
 .brand-about .text-ink { color: white; }
 .brand-about .text-ink-soft { color: var(--color-dark-text); }
-.brand-about :is(.text-brand-700, .text-brand-800) { color: var(--color-gold-muted); }
-.brand-about :focus-visible { outline-color: var(--color-gold-muted); }
+.brand-about :is(.text-brand-700, .text-brand-800) { color: var(--color-silver); }
 .brand-about .about-wordmark { color: white; }
-.brand-about .about-tenure { color: var(--color-gold-muted); }
-.brand-about .about-link { border-color: rgb(199 170 118 / 55%); }
+.brand-about .about-tenure { color: var(--color-silver); }
+.brand-about .about-link { border-color: var(--color-silver); }
 .brand-about .about-link:hover { color: white; }
-.brand-about figure { border: 1px solid rgb(199 170 118 / 28%); }
-.brand-about figcaption { color: var(--color-dark-text); border-color: rgb(199 170 118 / 28%); }
+.brand-about figcaption { color: var(--color-brand-700); border-color: var(--color-brand-200); }
 .hero-signature {
-  background: var(--color-brand-100);
-  animation: signature-reveal 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  background: var(--color-brand-900);
+  animation: signature-reveal 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 @keyframes signature-reveal {
-  from { clip-path: inset(0 0 12% 0); }
+  from { clip-path: inset(0 0 8% 0); }
   to { clip-path: inset(0); }
 }
 .brand-footer .text-ink-soft { color: var(--color-dark-text); }
-.brand-footer .text-brand-700 { color: var(--color-gold-muted); }
-.brand-footer .border-ink\/15 { border-color: rgb(192 192 192 / 25%); }
+.brand-footer .text-brand-700 { color: var(--color-silver); }
+.brand-footer .border-ink\/15 { border-color: rgb(197 206 218 / 25%); }
 .contact-handle { overflow-wrap: anywhere; }
 .contact-handle svg { flex-shrink: 0; }
 ::-webkit-scrollbar { width: 9px; }
 ::-webkit-scrollbar-track { background: var(--color-brand-50); }
-::-webkit-scrollbar-thumb {
-  border: 2px solid var(--color-brand-50);
-  border-radius: 0;
-  background: var(--color-gold-muted);
-}
+::-webkit-scrollbar-thumb { border: 2px solid var(--color-brand-50); border-radius: 0; background: var(--color-brand-500); }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-brand-700); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

@@ -1,230 +1,386 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T01:09:33.183Z",
-  "title": "Design System: Rodrigues de Carvalho Advogados",
+  "generatedAt": "2026-10-18T11:07:56.072575+00:00",
+  "title": "Design System: Micaela Alves Advocacia",
   "extensions": {
     "colorMeta": {
-      "brand-50": {
-        "role": "primary",
-        "displayName": "Dourado de superfície",
-        "canonical": "#f8f3e9"
-      },
-      "brand-100": {
-        "role": "primary",
-        "displayName": "Dourado de leitura clara",
-        "canonical": "#f1e4ca"
-      },
-      "brand-200": {
-        "role": "primary",
-        "displayName": "Dourado de ênfase nas etapas",
-        "canonical": "#e9c990"
-      },
-      "brand-300": {
-        "role": "primary",
-        "displayName": "Variação dourada do tema",
-        "canonical": "#efc27f"
-      },
-      "brand-400": {
-        "role": "primary",
-        "displayName": "Dourado institucional",
-        "canonical": "#dfa85c"
-      },
-      "brand-500": {
-        "role": "primary",
-        "displayName": "Dourado médio",
-        "canonical": "#bb843b"
-      },
-      "brand-600": {
-        "role": "primary",
-        "displayName": "Dourado do traço de endereço",
-        "canonical": "#946a2f"
-      },
-      "brand-700": {
-        "role": "primary",
-        "displayName": "Dourado de texto acessível",
-        "canonical": "#805b27"
-      },
-      "brand-800": {
-        "role": "primary",
-        "displayName": "Dourado profundo",
-        "canonical": "#65471e"
-      },
-      "brand-900": {
-        "role": "neutral",
-        "displayName": "Azul-marinho de apoio",
-        "canonical": "#152b44"
-      },
-      "brand-950": {
-        "role": "neutral",
-        "displayName": "Azul-marinho institucional",
-        "canonical": "#0b1a2f"
-      },
       "ink": {
         "role": "neutral",
-        "displayName": "Tinta azul",
-        "canonical": "#10243a"
+        "displayName": "ink",
+        "canonical": "#09182f",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
       "ink-soft": {
         "role": "neutral",
-        "displayName": "Tinta secundária",
-        "canonical": "#536174"
+        "displayName": "ink soft",
+        "canonical": "#4c5b70",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Branco",
-        "canonical": "#ffffff"
+        "displayName": "paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
       "ivory": {
         "role": "neutral",
-        "displayName": "Superfície clara",
-        "canonical": "#f0f2f4"
+        "displayName": "ivory",
+        "canonical": "#f5f6f8",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
       "linen": {
         "role": "neutral",
-        "displayName": "Neutro complementar",
-        "canonical": "#e5e9ed"
+        "displayName": "linen",
+        "canonical": "#e9edf2",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
-      "header-text": {
-        "role": "neutral",
-        "displayName": "Texto claro do cabeçalho",
-        "canonical": "#e4e9f0"
-      },
-      "hero-text": {
-        "role": "neutral",
-        "displayName": "Texto secundário do hero",
-        "canonical": "#cbd5e2"
-      },
-      "dark-divider": {
-        "role": "neutral",
-        "displayName": "Divisória clara sobre azul-marinho",
-        "canonical": "rgb(255 255 255 / 15%)"
-      },
-      "footer-divider": {
-        "role": "neutral",
-        "displayName": "Divisória prateada do rodapé",
-        "canonical": "rgb(192 192 192 / 25%)"
-      },
-      "gold-muted": {
-        "role": "primary",
-        "displayName": "Dourado fosco",
-        "canonical": "#c7aa76"
+      "silver": {
+        "role": "secondary",
+        "displayName": "silver",
+        "canonical": "#b8c1cd",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
       "dark-text": {
         "role": "neutral",
-        "displayName": "Leitura sobre azul",
-        "canonical": "#c2ccd8"
+        "displayName": "dark text",
+        "canonical": "#c5ceda",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
-      "gold-frame": {
+      "brand-50": {
         "role": "primary",
-        "displayName": "Contorno do Sobre",
-        "canonical": "rgb(199 170 118 / 28%)"
+        "displayName": "brand 50",
+        "canonical": "#f0f3f7",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
-      "gold-underline": {
+      "brand-100": {
         "role": "primary",
-        "displayName": "Sublinhado do Sobre",
-        "canonical": "rgb(199 170 118 / 55%)"
+        "displayName": "brand 100",
+        "canonical": "#dfe5ed",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
-      "gold-caption-divider": {
+      "brand-200": {
         "role": "primary",
-        "displayName": "Divisória da legenda",
-        "canonical": "rgb(199 170 118 / 40%)"
+        "displayName": "brand 200",
+        "canonical": "#c8d1de",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       },
-      "assurance-divider": {
-        "role": "neutral",
-        "displayName": "Divisória da faixa informativa",
-        "canonical": "rgb(255 255 255 / 12%)"
+      "brand-300": {
+        "role": "primary",
+        "displayName": "brand 300",
+        "canonical": "#b8c1cd",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-400": {
+        "role": "primary",
+        "displayName": "brand 400",
+        "canonical": "#95a3b5",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-500": {
+        "role": "primary",
+        "displayName": "brand 500",
+        "canonical": "#697c94",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-600": {
+        "role": "primary",
+        "displayName": "brand 600",
+        "canonical": "#516783",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-700": {
+        "role": "primary",
+        "displayName": "brand 700",
+        "canonical": "#394c63",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-800": {
+        "role": "primary",
+        "displayName": "brand 800",
+        "canonical": "#24374f",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-900": {
+        "role": "primary",
+        "displayName": "brand 900",
+        "canonical": "#10223b",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
+      },
+      "brand-950": {
+        "role": "primary",
+        "displayName": "brand 950",
+        "canonical": "#09182f",
+        "tonalRamp": [
+          "#09182f",
+          "#10223b",
+          "#24374f",
+          "#394c63",
+          "#516783",
+          "#697c94",
+          "#b8c1cd",
+          "#f0f3f7"
+        ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Título do hero",
-        "purpose": "Libre Caslon Text 700; 36/48/52px, entrelinha 1.18, em 640/1024px."
+        "displayName": "display",
+        "purpose": "Bodoni Moda, Georgia, serif; 2.25rem, peso 600, entrelinha 1.18."
+      },
+      "display-tablet": {
+        "displayName": "display tablet",
+        "purpose": "Bodoni Moda, Georgia, serif; 3rem, peso 600, entrelinha 1.18."
+      },
+      "display-desktop": {
+        "displayName": "display desktop",
+        "purpose": "Bodoni Moda, Georgia, serif; 3.5rem, peso 600, entrelinha 1.18."
       },
       "headline": {
-        "displayName": "Título de seção",
-        "purpose": "Libre Caslon Text 700; 32/40/48px, entrelinha 1.18. Passos 2rem/2.5rem/3.25rem intencionais no conjunto de títulos."
+        "displayName": "headline",
+        "purpose": "Bodoni Moda, Georgia, serif; 2rem, peso 600, entrelinha 1.18."
       },
-      "pillar-title": {
-        "displayName": "Título de pilar",
-        "purpose": "Pilares institucionais, sem especialidades presumidas."
+      "headline-tablet": {
+        "displayName": "headline tablet",
+        "purpose": "Bodoni Moda, Georgia, serif; 2.5rem, peso 600, entrelinha 1.18."
+      },
+      "headline-desktop": {
+        "displayName": "headline desktop",
+        "purpose": "Bodoni Moda, Georgia, serif; 3rem, peso 600, entrelinha 1.18."
+      },
+      "area-title": {
+        "displayName": "area title",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.55rem, peso 600, entrelinha 1.25."
+      },
+      "area-title-tablet": {
+        "displayName": "area title tablet",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.8rem, peso 600, entrelinha 1.25."
+      },
+      "title": {
+        "displayName": "title",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.5rem, peso 600, entrelinha 2rem."
       },
       "dialog-title": {
-        "displayName": "Título do diálogo",
-        "purpose": "1.7rem no celular; 1.875rem em 640px."
+        "displayName": "dialog title",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.7rem, peso 600, entrelinha 1.25."
       },
-      "info-label": {
-        "displayName": "Descrição informativa",
-        "purpose": "11px na faixa de atendimento."
+      "dialog-title-tablet": {
+        "displayName": "dialog title tablet",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.875rem, peso 600, entrelinha 1.25."
+      },
+      "assurance": {
+        "displayName": "assurance",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.5rem, peso 400, entrelinha 2rem."
+      },
+      "assurance-tablet": {
+        "displayName": "assurance tablet",
+        "purpose": "Bodoni Moda, Georgia, serif; 1.7rem, peso 400, entrelinha 2rem."
       },
       "body": {
-        "displayName": "Leitura",
-        "purpose": "Montserrat nos textos e controles."
+        "displayName": "body",
+        "purpose": "Manrope, system-ui, sans-serif; 15px, peso 400, entrelinha 28px."
+      },
+      "body-wide": {
+        "displayName": "body wide",
+        "purpose": "Manrope, system-ui, sans-serif; 16px, peso 400, entrelinha 32px."
+      },
+      "body-small": {
+        "displayName": "body small",
+        "purpose": "Manrope, system-ui, sans-serif; 14px, peso 400, entrelinha 28px."
+      },
+      "body-compact": {
+        "displayName": "body compact",
+        "purpose": "Manrope, system-ui, sans-serif; 13px, peso 400, entrelinha 24px."
       },
       "label": {
-        "displayName": "Ação",
-        "purpose": "Peso 600 nos CTAs."
+        "displayName": "label",
+        "purpose": "Manrope, system-ui, sans-serif; 14px, peso 600, entrelinha 20px."
       },
-      "info-value-tablet": {
-        "displayName": "Valor informativo",
-        "purpose": "Span Libre Caslon Text 400 em 1.7rem; a regra de peso 700 limita-se a h1/h2/h3.font-display."
-      },
-      "institutional-title": {
-        "displayName": "Wordmark do Sobre",
-        "purpose": "Montserrat 14px/24px, 600, caixa alta, tracking 0.08em."
-      },
-      "team-caption": {
-        "displayName": "Nome sob a equipe",
-        "purpose": "Montserrat 14px/24px, 600, tracking 0.02em, alinhado à esquerda."
+      "label-large": {
+        "displayName": "label large",
+        "purpose": "Manrope, system-ui, sans-serif; 16px, peso 600, entrelinha 24px."
       },
       "label-small": {
-        "displayName": "CTA do cabeçalho",
-        "purpose": "Montserrat 12px/16px, 600, caixa alta, tracking 0.08em."
+        "displayName": "label small",
+        "purpose": "Manrope, system-ui, sans-serif; 12px, peso 600, entrelinha 16px."
+      },
+      "navigation": {
+        "displayName": "navigation",
+        "purpose": "Manrope, system-ui, sans-serif; 14px, peso 600, entrelinha 1.5."
       }
     },
     "shadows": [
       {
-        "name": "card",
-        "value": "0 18px 48px rgb(11 26 47 / 18%)",
-        "purpose": "Sombra estrutural exclusiva do diálogo; a camada de fundo usa ink a 55% e desfoque de 8px."
+        "name": "dialog",
+        "value": "0 18px 48px rgb(9 24 47 / 18%)",
+        "purpose": "Elevação estrutural do diálogo."
       }
     ],
     "motion": [
       {
-        "name": "navigation",
-        "value": "180ms ease",
-        "purpose": "Cor e sublinhado da navegação; cor dos links do rodapé."
+        "name": "portrait-reveal",
+        "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Revelação discreta do retrato; desativada em movimento reduzido."
       },
       {
-        "name": "cta",
+        "name": "button-color",
         "value": "200ms",
-        "purpose": "Transição de fundo e borda do CTA compartilhado."
-      },
-      {
-        "name": "menu",
-        "value": "220ms",
-        "purpose": "Altura e opacidade da navegação móvel."
-      },
-      {
-        "name": "dialog",
-        "value": "240ms",
-        "purpose": "Entrada e saída do diálogo; y 24/16 e scale .98/.99."
-      },
-      {
-        "name": "signature",
-        "value": "1000ms cubic-bezier(0.16, 1, 0.3, 1) both",
-        "purpose": "Revelação da fotografia da equipe, de clip-path inset(0 0 12% 0) a inset(0), terminando inteira."
-      },
-      {
-        "name": "reduced-motion",
-        "value": "animation:none (hero-signature); 0.01ms (CSS); reducedMotion:user (MotionConfig)",
-        "purpose": "Desativa a revelação, reduz durações CSS e usa rolagem automática."
+        "purpose": "Transição de cores dos CTAs."
       }
     ],
     "breakpoints": [
-      {
-        "name": "logo",
-        "value": "360px"
-      },
       {
         "name": "sm",
         "value": "640px"
@@ -241,59 +397,73 @@
   },
   "components": [
     {
-      "name": "CTA principal",
+      "name": "Contato em superfície clara",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "GlowingButton md: dourado fosco, plano e reto, com texto azul-marinho.",
-      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5533999988635?text=Ol%C3%A1%2C%20Rodrigues%20de%20Carvalho%20Advogados!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20agendar%20um%20atendimento%20jur%C3%ADdico.\" target=\"_blank\" rel=\"noopener noreferrer\">Fale com nossa equipe <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a>",
-      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-gold-muted,#c7aa76);border-radius:0;background:var(--color-gold-muted,#c7aa76);color:var(--color-brand-950,#0b1a2f);font:600 14px/20px var(--font-body,\"Montserrat\"),system-ui,sans-serif;text-align:center;text-decoration:none;user-select:none;transition:background-color 200ms,border-color 200ms}.ds-primary:hover{background:var(--color-brand-100,#f1e4ca);border-color:var(--color-brand-100,#f1e4ca)}.ds-primary:focus-visible{outline:2px solid var(--color-gold-muted,#c7aa76);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms;animation-duration:.01ms}}"
+      "description": "Botão compartilhado de contato.",
+      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5531997341475\">Fale com a Micaela <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:14px 24px;border:1px solid transparent;border-radius:0;font:600 14px Manrope,system-ui,sans-serif;text-decoration:none;transition:background 200ms,color 200ms;background:var(--color-brand-800,#24374f);color:var(--color-paper,#fff)}.ds-primary:hover{background:var(--color-brand-700,#394c63)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#394c63);outline-offset:4px}"
     },
     {
-      "name": "CTA inverso",
+      "name": "Contato em superfície escura",
       "kind": "button",
-      "refersTo": "button-inverse",
-      "description": "Ação branca com cantos retos sobre a chamada final azul-marinho.",
-      "html": "<div class=\"ds-final-band\"><a class=\"ds-inverse\" href=\"https://wa.me/5533999988635?text=Ol%C3%A1%2C%20Rodrigues%20de%20Carvalho%20Advogados!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20agendar%20um%20atendimento%20jur%C3%ADdico.\" target=\"_blank\" rel=\"noopener noreferrer\">Fale pelo WhatsApp <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></div>",
-      "css": ".ds-final-band{padding:56px 20px;background:var(--color-brand-950,#0b1a2f)}.ds-inverse{display:inline-flex;align-items:center;gap:12px;padding:16px 24px;border-radius:0;background:var(--color-paper,#ffffff);color:var(--color-brand-800,#65471e);font:600 10px/15px var(--font-body,\"Montserrat\"),system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;transition:transform 150ms}.ds-inverse:hover{transform:translateY(-2px)}.ds-inverse:focus-visible{outline:2px solid white;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-inverse{transition-duration:.01ms;animation-duration:.01ms}}"
+      "refersTo": "button-on-dark",
+      "description": "Variação prateada usada no hero.",
+      "html": "<div class=\"ds-dark-ground\"><a class=\"ds-silver\" href=\"https://wa.me/5531997341475\">Fale com a Micaela <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a></div>",
+      "css": ".ds-dark-ground{background:var(--color-brand-950,#09182f);padding:24px}.ds-silver{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:14px 24px;border:1px solid transparent;border-radius:0;font:600 14px Manrope,system-ui,sans-serif;text-decoration:none;transition:background 200ms,color 200ms;background:var(--color-silver,#b8c1cd);color:var(--color-brand-950,#09182f)}.ds-silver:hover{background:var(--color-brand-100,#dfe5ed)}.ds-silver:focus-visible{outline:2px solid var(--color-silver,#b8c1cd);outline-offset:4px}"
     },
     {
-      "name": "Navegação principal",
+      "name": "Navegação",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Prévia dos links desktop sobre azul-marinho; o app alterna para menu móvel abaixo de 1024px.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
-      "css": ".ds-nav{display:flex;flex-wrap:wrap;align-items:center;gap:28px;background:var(--color-brand-950,#0b1a2f)}.ds-nav a{position:relative;padding:12px 0;color:#e4e9f0;font:600 15px/1.5 var(--font-body,\"Montserrat\"),system-ui,sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;content:\"\";background:var(--color-gold-muted,#c7aa76);transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-gold-muted,#c7aa76)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-400,#dfa85c);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav a,.ds-nav a::after{transition-duration:.01ms;animation-duration:.01ms}}"
+      "description": "Links institucionais em superfície branca.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação de exemplo\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;background:var(--color-paper,#fff);padding:20px}.ds-nav a{font:600 14px Manrope,system-ui,sans-serif;color:var(--color-ink-soft,#4c5b70);text-decoration:none;padding:12px 0}.ds-nav a:hover{color:var(--color-brand-950,#09182f);text-decoration:underline;text-underline-offset:12px}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#394c63);outline-offset:4px}"
     },
     {
       "name": "Pergunta frequente",
       "kind": "custom",
-      "description": "Disclosure nativo da seção clara de perguntas; conteúdo e comportamento independem de JavaScript.",
-      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>O escritório fica na Rua João Maroni · Edifício Shopping Center · sala 08 — Centro, Manhumirim — MG, 36970-000. Entre em contato para combinar sua visita.</p></details>",
-      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(16 36 58 / 15%);background:var(--color-linen,#e5e9ed);color:var(--color-ink,#10243a);font:400 14px/28px var(--font-body,\"Montserrat\"),system-ui,sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;line-height:24px;font-weight:600}.ds-faq summary::marker{color:var(--color-brand-700,#805b27)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#805b27);outline-offset:4px}.ds-faq p{max-width:36rem;margin:16px 0 0;color:var(--color-ink-soft,#536174)}"
+      "description": "Disclosure nativo, com divisão fina.",
+      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>Av. Gov. Valadares, 440 — Centro, Igarapé — MG, 32900-000.</p></details>",
+      "css": ".ds-faq{background:var(--color-linen,#e9edf2);border-block:1px solid rgb(9 24 47 / 15%);padding:24px;font:400 14px/28px Manrope,system-ui,sans-serif;color:var(--color-ink-soft,#4c5b70)}.ds-faq summary{min-height:44px;cursor:pointer;font-weight:600;color:var(--color-ink,#09182f)}.ds-faq summary:hover{text-decoration:underline;text-underline-offset:4px}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#394c63);outline-offset:4px}"
     },
     {
-      "name": "Linha de pilar institucional",
-      "kind": "custom",
-      "refersTo": "pillar-row",
-      "description": "Orientação jurídica é um pilar de atendimento; o app abre seu diálogo na ação Saiba mais.",
-      "html": "<article class=\"ds-pillar\"><span class=\"ds-pillar-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\"></path><path d=\"M7 11h10\"></path><path d=\"M7 15h6\"></path><path d=\"M7 7h8\"></path></svg></span><div><h3>Orientação jurídica</h3><p>Uma conversa para compreender sua situação, esclarecer dúvidas e entender os próximos passos.</p></div><button type=\"button\" aria-haspopup=\"dialog\" aria-label=\"Saiba mais sobre orientação jurídica\">Saiba mais <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg></button></article>",
-      "css": ".ds-pillar{display:grid;align-items:start;gap:20px;padding:32px 0;border-block:1px solid rgb(16 36 58 / 15%);background:var(--color-ivory,#f0f2f4)}.ds-pillar-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:0;border:1px solid rgb(16 36 58 / 20%);color:var(--color-ink,#10243a)}.ds-pillar h3{margin:0;max-width:36rem;font:700 1.55rem/1.25 var(--font-display-face,\"Libre Caslon Text\"),Georgia,serif;letter-spacing:-.025em;color:var(--color-ink,#10243a)}.ds-pillar p{margin:12px 0 0;max-width:36rem;font:400 13px/24px var(--font-body,\"Montserrat\"),system-ui,sans-serif;color:var(--color-ink-soft,#536174)}.ds-pillar button{display:inline-flex;align-items:center;gap:8px;min-height:44px;width:fit-content;padding:0;border:0;background:transparent;color:var(--color-brand-800,#65471e);font:600 12px/16px var(--font-body,\"Montserrat\"),system-ui,sans-serif;cursor:pointer}.ds-pillar button svg{transition:transform 150ms}.ds-pillar button:hover{color:var(--color-brand-700,#805b27)}.ds-pillar button:hover svg{transform:translateX(4px)}.ds-pillar button:focus-visible{outline:2px solid var(--color-brand-700,#805b27);outline-offset:4px}@media(min-width:640px){.ds-pillar{grid-template-columns:48px 1fr auto;gap:28px;padding:36px 0}.ds-pillar h3{font-size:1.8rem}.ds-pillar button{align-self:center}}@media(prefers-reduced-motion:reduce){.ds-pillar button svg{transition-duration:.01ms;animation-duration:.01ms}}"
+      "name": "Painel de endereço",
+      "kind": "card",
+      "refersTo": "address-panel",
+      "description": "Painel branco de contato e localização.",
+      "html": "<section class=\"ds-address\"><h3>Nosso escritório em Igarapé</h3><address>Av. Gov. Valadares, 440 — Centro, Igarapé — MG, 32900-000</address><a href=\"https://www.google.com/maps?cid=12951392828992382296\">Ver no Google Maps <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a></section>",
+      "css": ".ds-address{padding:28px;background:var(--color-paper,#fff);color:var(--color-ink,#09182f);border:1px solid rgb(9 24 47 / 10%)}.ds-address h3{font:600 24px/32px \"Bodoni Moda\",Georgia,serif;margin:0 0 24px}.ds-address address{font:400 14px/28px Manrope,system-ui,sans-serif;color:var(--color-ink-soft,#4c5b70)}.ds-address a{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:24px;color:var(--color-brand-700,#394c63);font:600 12px Manrope,system-ui,sans-serif;text-underline-offset:4px}.ds-address a:hover{color:var(--color-ink,#09182f)}.ds-address a:focus-visible{outline:2px solid var(--color-brand-700,#394c63);outline-offset:4px}"
     }
   ],
   "narrative": {
-    "northStar": "Atenção e clareza",
-    "overview": "Azul-marinho e dourado dão presença institucional ao logo e à fotografia real da equipe. Libre Caslon Text 700 organiza os títulos; Montserrat sustenta a leitura e os controles. A presença mais firme e premium combina dourado fosco e controles retos. Superfícies claras, divisórias finas e controles planos favorecem uma comunicação atenta e compreensível.\n\nRegistro extraído de app/globals.css, app/page.tsx, app/layout.tsx, app/components/GlowingButton.tsx app/lib/brand.ts e app/lib/reviews.ts. O frontmatter é normativo; .impeccable/design.json reúne extensões e exemplos. PRODUCT.md e a direção vigente fornecem as restrições confirmadas.",
+    "northStar": "Escuta, estratégia e presença",
+    "overview": "A identidade parte do logo original: azul profundo no wordmark e prata no monograma. Superfícies brancas preservam seus detalhes; faixas azuis dão presença ao retrato e à comunicação institucional. A estrutura existente é preservada conforme o pedido.\n\nBodoni Moda acompanha as serifas e o contraste entre traços grossos e finos da marca. Manrope organiza textos, controles e contatos com legibilidade. Espaço, linhas finas e formas retas sustentam a composição.",
+    "keyCharacteristics": [
+      "Logo e fotografia integrais, nas proporções originais.",
+      "Azul, prata e superfícies claras em todas as seções.",
+      "Títulos serifados e corpo sem serifa.",
+      "Controles planos, foco visível e movimento reduzido."
+    ],
+    "rules": [
+      {
+        "name": "The Logo Contrast Rule",
+        "body": "O logo original permanece sobre branco; clarear o fundo preserva a marca sem recolorir seu arquivo.",
+        "section": "colors"
+      }
+    ],
     "dos": [
-      "Do preservar o logo e a fotografia originais, sem corte nem distorção.",
-      "Do usar dourado escuro para texto nas superfícies claras e texto azul-marinho nos CTAs dourados.",
-      "Do manter foco visível, fundo inerte, retorno do foco e movimento reduzido.",
-      "Do usar apenas dados confirmados e os três pilares institucionais.",
-      "Do manter avaliações reais com autoria, link direto e data de consulta, usando app/lib/reviews.ts."
+      "Do preservar o logo e o retrato originais, sem corte ou distorção.",
+      "Do usar o logo sobre branco para manter a leitura dos traços azuis e prateados.",
+      "Do usar prata clara e texto azul no CTA sobre fundo escuro; sobre fundo claro, CTA azul com texto branco.",
+      "Do manter foco visível, fundo inerte e retorno do foco nos diálogos.",
+      "Do manter as áreas e os contatos centralizados no conteúdo da aplicação."
     ],
     "donts": [
-      "Don't recolorir os assets ou acrescentar brilho aos CTAs planos.",
-      "Don't ocultar conteúdo até a rolagem ou exigir animação para acessar informações.",
-      "Don't inventar especialidades, credenciais, notas, depoimentos ou promessas de resultado."
+      "Don't introduzir cores fora da paleta extraída e de suas variações tonais.",
+      "Don't usar o logo escuro diretamente sobre azul-marinho.",
+      "Don't inventar nota, depoimentos, formação, experiência ou promessas de resultado.",
+      "Don't ocultar conteúdo até a rolagem ou exigir animação para acessar informações."
     ]
   }
 }

@@ -15,14 +15,14 @@ import {
   MessageCircle,
   MapPin,
   Menu,
-  MessageSquareText,
-  FileSearch,
+  HeartHandshake,
+  Scale,
   ShieldCheck,
   Camera,
   Star,
   X,
 } from "lucide-react";
-import GlowingButton from "./components/GlowingButton";
+import PrimaryButton from "./components/PrimaryButton";
 import { brand, contact, whatsapp, telephone, whatsappFor, maps, reviews } from "./lib/brand";
 import { googleReviews } from "./lib/reviews";
 
@@ -44,22 +44,22 @@ const stagger: Variants = {
 
 const areas = [
   {
-    title: "Orientação jurídica", icon: MessageSquareText,
-    summary: "Uma conversa para compreender sua situação, esclarecer dúvidas e entender os próximos passos.",
-    details: "O atendimento começa pela sua história. Compartilhe sua dúvida com a Rodrigues de Carvalho Advogados para receber informações sobre a consulta e a orientação jurídica adequada à sua demanda.",
-    topics: ["Escuta da sua situação", "Esclarecimento das dúvidas iniciais", "Informações sobre o agendamento", "Orientação sobre os documentos necessários"],
+    title: "Direito de Família", icon: HeartHandshake,
+    summary: "Cuidado com os vínculos e atenção às decisões que fazem parte da sua história.",
+    details: "Questões de família envolvem relações, escolhas e mudanças importantes. O atendimento parte da escuta da sua história para analisar a demanda, esclarecer suas dúvidas e definir as providências adequadas ao seu contexto.",
+    topics: ["Escuta das questões familiares", "Análise da situação e dos documentos", "Esclarecimento sobre os caminhos possíveis", "Acompanhamento conforme o escopo contratado"],
   },
   {
-    title: "Análise individual", icon: FileSearch,
-    summary: "Atenção ao contexto e aos documentos que ajudam a compreender a sua demanda.",
-    details: "Cada situação jurídica tem suas particularidades. A análise considera os fatos e os documentos apresentados para esclarecer as questões envolvidas e conversar sobre as alternativas cabíveis, com sigilo e responsabilidade.",
-    topics: ["Compreensão do contexto da demanda", "Análise dos documentos apresentados", "Esclarecimento de direitos e responsabilidades", "Explicação dos caminhos possíveis"],
+    title: "Direito Criminal", icon: Scale,
+    summary: "Análise criteriosa e estratégia jurídica para lidar com situações que exigem atenção e sigilo.",
+    details: "Uma demanda criminal pede análise cuidadosa dos fatos, dos documentos e do momento de cada caso. O atendimento busca tornar as etapas compreensíveis, com orientação individualizada, sigilo e responsabilidade.",
+    topics: ["Compreensão dos fatos e do contexto", "Análise da documentação disponível", "Orientação sobre as etapas da demanda", "Definição da estratégia jurídica do caso"],
   },
   {
-    title: "Acompanhamento jurídico", icon: ShieldCheck,
-    summary: "Comunicação clara para você compreender as etapas e as providências relacionadas ao seu caso.",
-    details: "Compreender o andamento de uma demanda faz parte do atendimento. Converse com a equipe sobre as etapas, as providências e as formas de acompanhamento aplicáveis à sua situação. O escopo do trabalho é definido conforme a análise do caso.",
-    topics: ["Explicação das etapas do atendimento", "Orientação sobre providências e documentos", "Esclarecimento de dúvidas ao longo do trabalho", "Comunicação com a equipe do escritório"],
+    title: "Violência Doméstica", icon: ShieldCheck,
+    summary: "Escuta acolhedora e orientação jurídica com foco na proteção dos seus direitos.",
+    details: "A atuação em situações de violência doméstica exige acolhimento, cuidado e respeito à história de cada pessoa. O atendimento oferece espaço para compreender a demanda e conversar, com sigilo, sobre as providências jurídicas cabíveis à situação.",
+    topics: ["Acolhimento e escuta com sigilo", "Análise individual da situação", "Orientação sobre as providências jurídicas", "Acompanhamento da demanda conforme a análise"],
   },
 ];
 
@@ -151,22 +151,22 @@ export default function Home() {
       <main className="bg-ivory text-ink">
         <div ref={contentRef}>
         <a href="#inicio" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-none focus:bg-white focus:p-4 focus:text-ink">Ir para o conteúdo</a>
-        <header className="brand-header sticky top-0 z-40 border-b border-white/15 bg-brand-950 text-white">
-          <div className="mx-auto flex h-[100px] max-w-7xl items-center justify-between gap-5 px-5 sm:h-[112px] sm:px-8 lg:px-12">
+        <header className="brand-header sticky top-0 z-40 border-b border-ink/10 bg-paper text-ink">
+          <div className="mx-auto flex h-[88px] max-w-7xl items-center justify-between gap-5 px-5 sm:h-[96px] sm:px-8 lg:px-12">
             <a
               href="#inicio"
-              aria-label="Rodrigues de Carvalho Advogados — início"
+              aria-label="Micaela Alves Advocacia — início"
               onClick={closeMenu}
               className="shrink-0"
             >
               <Image
                 src={brand.logo}
-                width={1774}
-                height={887}
+                width={2171}
+                height={724}
                 alt={brand.businessName}
                 preload
-                className="h-auto w-[152px] min-[360px]:w-[170px] sm:w-[190px]"
-                sizes="(max-width: 359px) 152px, (max-width: 640px) 170px, 190px"
+                className="h-auto w-[210px] min-[360px]:w-[235px] sm:w-[280px]"
+                sizes="(max-width: 359px) 210px, (max-width: 640px) 235px, 280px"
               />
             </a>
             <nav
@@ -194,26 +194,26 @@ export default function Home() {
                 href={contact}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp da Rodrigues de Carvalho Advogados"
-                className="grid size-11 place-items-center rounded-none border border-white/25 text-gold-muted transition-colors hover:border-brand-400 hover:bg-brand-900"
+                aria-label="WhatsApp da Micaela Alves Advocacia"
+                className="grid size-11 place-items-center rounded-none border border-ink/20 text-brand-800 transition-colors hover:border-brand-700 hover:bg-brand-50"
               >
                 <WhatsAppMark size={17} strokeWidth={1.7} />
               </a>
-              <GlowingButton
+              <PrimaryButton
                 href={whatsapp}
                 target="_blank"
                 size="sm"
                 className="rounded-none"
               >
                 WhatsApp <ArrowUpRight size={14} />
-              </GlowingButton>
+              </PrimaryButton>
             </div>
             <button
               type="button"
               aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
               aria-expanded={menuOpen}
               aria-controls="mobile-navigation"
-              className="grid size-11 shrink-0 place-items-center rounded-none border border-white/25 text-gold-muted lg:hidden"
+              className="grid size-11 shrink-0 place-items-center rounded-none border border-ink/20 text-brand-800 lg:hidden"
               onClick={() => setMenuOpen((open) => !open)}
             >
               {menuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -230,7 +230,7 @@ export default function Home() {
                 transition={{ duration: 0.22 }}
                 className="absolute inset-x-0 top-full overflow-hidden border-b border-ink/10 bg-ivory px-6 lg:hidden"
               >
-                <div className="mx-auto flex max-h-[calc(100dvh-96px)] max-w-7xl flex-col gap-1 overflow-y-auto py-4 sm:max-h-[calc(100dvh-112px)]">
+                <div className="mx-auto flex max-h-[calc(100dvh-88px)] max-w-7xl flex-col gap-1 overflow-y-auto py-4 sm:max-h-[calc(100dvh-96px)]">
                   {[
                     ["Início", "#inicio"],
                     ["Atendimento", "#atuacao"],
@@ -248,7 +248,7 @@ export default function Home() {
                     </a>
                   ))}
                   <a
-                    className="mt-3 inline-flex items-center justify-center gap-2 rounded-none bg-gold-muted px-5 py-3.5 text-sm font-semibold text-brand-950"
+                    className="mt-3 inline-flex items-center justify-center gap-2 rounded-none bg-silver px-5 py-3.5 text-sm font-semibold text-brand-950"
                     href={whatsapp}
                     target="_blank"
                     rel="noreferrer"
@@ -266,7 +266,7 @@ export default function Home() {
           id="inicio"
           className="brand-hero relative isolate overflow-hidden scroll-mt-28 border-b border-white/15 bg-brand-950"
         >
-          <div className="mx-auto grid min-h-[600px] max-w-7xl items-center gap-12 px-5 py-12 sm:px-8 sm:py-16 lg:min-h-[640px] lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:px-12 lg:py-16">
+          <div className="mx-auto grid min-h-[560px] max-w-7xl items-center gap-12 px-5 py-12 sm:px-8 sm:py-16 lg:min-h-[620px] lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:px-12 lg:py-12">
             <motion.div
               initial={false}
               animate="visible"
@@ -275,34 +275,34 @@ export default function Home() {
             >
               <motion.h1
                 variants={reveal}
-                className="max-w-[720px] font-display text-[2.25rem] leading-[1.18] tracking-[-0.025em] text-ink sm:text-[3rem] lg:text-[3.25rem]"
+                className="max-w-[720px] font-display text-[2.25rem] leading-[1.18] tracking-[-0.025em] text-ink sm:text-[3rem] lg:text-[3.5rem]"
               >
-                Seus direitos merecem{" "}
-                <span className="text-brand-700">atenção e clareza.</span>
+                Sua história importa.
+                <span className="block text-silver">Seus direitos, também.</span>
               </motion.h1>
               <motion.p
                 variants={reveal}
                 className="mt-7 max-w-xl text-[15px] leading-7 text-ink-soft sm:text-base sm:leading-8"
               >
-                Na Rodrigues de Carvalho Advogados, cada situação começa com uma escuta atenta. Orientação jurídica com responsabilidade e proximidade, em Manhumirim, Minas Gerais.
+                Advocacia de Família e Criminal, com ênfase em Violência Doméstica. Escuta atenta e estratégia jurídica para proteger seus direitos, em Igarapé, Minas Gerais.
               </motion.p>
               <motion.div
                 variants={reveal}
                 className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center"
               >
-                <GlowingButton
+                <PrimaryButton
                   href={whatsapp}
                   target="_blank"
                   size="lg"
                   className="rounded-none"
                 >
-                  <WhatsAppMark size={17} /> Fale com nossa equipe
-                </GlowingButton>
+                  <WhatsAppMark size={17} /> Fale com a Micaela
+                </PrimaryButton>
                 <a
                   href="#atuacao"
                   className="group inline-flex items-center gap-2 px-1 py-3 text-sm font-medium text-ink transition-colors hover:text-brand-700"
                 >
-                  Nosso atendimento{" "}
+                  Áreas de atuação{" "}
                   <ArrowRight
                     size={15}
                     className="transition-transform group-hover:translate-x-1"
@@ -319,10 +319,10 @@ export default function Home() {
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <MessageCircle size={15} className="text-brand-700" />
-                  Atendimento com agendamento
+                  Família e Criminal
                 </span>
                 <a href="#avaliacoes" className="inline-flex items-center gap-2 py-2 text-sm text-brand-700 underline underline-offset-4">
-                  <Star size={15} aria-hidden="true" /> Avaliações no Google
+                  <ArrowUpRight size={15} aria-hidden="true" /> Conheça as avaliações
                 </a>
               </motion.div>
             </motion.div>
@@ -334,21 +334,21 @@ export default function Home() {
                 delay: 0.16,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              className="relative mx-auto w-full max-w-[520px] lg:ml-auto lg:mr-0"
+              className="relative mx-auto w-full max-w-[400px] lg:ml-auto lg:mr-0"
             >
               <figure className="hero-signature">
                 <Image
                   src={brand.portrait}
-                  alt="Equipe da Rodrigues de Carvalho Advogados no escritório em Manhumirim"
-                  width={680}
-                  height={453}
+                  alt="Micaela Alves, advogada de Família e Criminal em Igarapé, Minas Gerais"
+                  width={633}
+                  height={729}
                   preload
-                  sizes="(max-width: 640px) 90vw, (max-width: 1023px) 520px, 480px"
+                  sizes="(max-width: 450px) 90vw, 400px"
                   className="h-auto w-full"
                 />
-                <figcaption className="flex flex-col gap-2 border-t border-gold-muted/40 bg-brand-900 px-5 py-5 text-left leading-6 text-brand-100">
-                  <span className="font-sans text-sm font-semibold leading-6 tracking-[0.02em] text-white">Rodrigues de Carvalho Advogados</span>
-                  <span className="text-xs tracking-[0.06em]">Manhumirim · Minas Gerais</span>
+                <figcaption className="flex flex-col gap-2 border-t border-silver/40 bg-brand-900 px-5 py-5 text-left leading-6 text-brand-100">
+                  <span className="font-sans text-sm font-semibold leading-6 tracking-[0.02em] text-white">Micaela Alves Advocacia</span>
+                  <span className="text-xs tracking-[0.06em]">{brand.registration} · Igarapé, MG</span>
                 </figcaption>
               </figure>
             </motion.div>
@@ -361,9 +361,9 @@ export default function Home() {
         >
           <div className="mx-auto grid max-w-7xl gap-6 px-5 py-7 sm:grid-cols-3 sm:gap-4 sm:px-8 lg:px-12">
             {[
-              ["Atenção", "Escuta e análise do seu caso"],
-              ["Proximidade", "Diálogo com nossa equipe"],
-              ["Clareza", "Orientação em cada etapa"],
+              ["Escuta", "Sua história como ponto de partida"],
+              ["Proximidade", "Diálogo com a Micaela"],
+              ["Cuidado", "Sigilo e atenção em cada etapa"],
             ].map(([value, label], index) => (
               <div
                 key={value}
@@ -376,7 +376,7 @@ export default function Home() {
                 <span className="font-display text-2xl text-brand-700 sm:text-[1.7rem]">
                   {value}
                 </span>
-                <span className="max-w-[145px] text-[11px] leading-5 text-ink-soft">
+                <span className="max-w-[145px] text-xs leading-5 text-ink-soft">
                   {label}
                 </span>
               </div>
@@ -400,11 +400,11 @@ export default function Home() {
 
                 description="Da primeira conversa à análise do seu caso, um atendimento pautado pela escuta, pelo sigilo e pela clareza."
               >
-                Escuta para compreender.{" "}
-                <span className="text-brand-700">Clareza para orientar.</span>
+                Direito com estratégia.{" "}
+                <span className="text-brand-700">Atuação com cuidado.</span>
               </Heading>
               <p className="max-w-[250px] pb-1 text-xs leading-6 text-ink-soft">
-                Conheça os pilares do nosso atendimento. Fale com a equipe para conversar sobre a sua demanda.
+                Família, Criminal e ênfase em Violência Doméstica. Conheça as frentes de atuação e converse sobre o seu caso.
               </p>
             </motion.div>
             <motion.div
@@ -457,17 +457,17 @@ export default function Home() {
 
         <section id="sobre" className="brand-about scroll-mt-28 bg-brand-950 py-20 sm:py-28 lg:py-32">
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-24 lg:px-12">
-            <figure className="mx-auto flex w-full max-w-[460px] flex-col justify-center bg-brand-950 px-7 py-14 sm:px-10 lg:mx-0">
-              <Image src={brand.logo} alt="Rodrigues de Carvalho Advogados — logotipo original" width={1774} height={887} sizes="(max-width: 640px) 80vw, 380px" className="h-auto w-full" />
-              <figcaption className="mt-5 border-t border-brand-400/30 py-5 text-sm text-brand-100">Responsabilidade em cada orientação.</figcaption>
+            <figure className="mx-auto flex w-full max-w-[460px] flex-col justify-center bg-paper px-7 py-14 sm:px-10 lg:mx-0">
+              <Image src={brand.logo} alt="Micaela Alves Advocacia — logotipo original" width={2171} height={724} sizes="(max-width: 640px) 80vw, 380px" className="h-auto w-full" />
+              <figcaption className="mt-5 border-t border-brand-400/30 py-5 text-sm text-brand-100">Escuta. Estratégia. Proteção de direitos.</figcaption>
             </figure>
             <div>
               <Heading>Compromisso com o Direito.{" "}<span className="text-brand-700">Atenção às pessoas.</span></Heading>
-              <h3 className="about-wordmark mt-8 font-sans text-sm font-semibold uppercase leading-6 tracking-[0.08em] text-brand-800">Rodrigues de Carvalho Advogados</h3>
-              <p className="about-tenure mt-3 text-xs font-medium leading-6 tracking-[0.04em] text-ink-soft">Mais de três décadas de atuação · Manhumirim, Minas Gerais</p>
-              <p className="mt-6 max-w-xl text-[15px] leading-7 text-ink-soft">Fundada há mais de três décadas, a Rodrigues de Carvalho Advogados construiu uma trajetória pautada pela ética, pela integridade e pelo rigor técnico. Em Manhumirim, Minas Gerais, reunimos experiência e formação especializada para oferecer orientação jurídica com atenção às particularidades de cada caso.</p>
-              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Nossa prática alia profundidade acadêmica, atenção aos detalhes e compromisso com a justiça. Buscamos soluções que atendam às necessidades de cada cliente, com transparência e responsabilidade em todas as etapas do atendimento.</p>
-              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Colocamos nosso conhecimento e nossa experiência a serviço de quem busca orientação para compreender seus direitos e decidir os próximos passos.</p>
+              <h3 className="about-wordmark mt-8 font-sans text-sm font-semibold uppercase leading-6 tracking-[0.08em] text-brand-800">Micaela Alves</h3>
+              <p className="about-tenure mt-3 text-xs font-medium leading-6 tracking-[0.04em] text-ink-soft">{brand.registration} · Igarapé, Minas Gerais</p>
+              <p className="mt-6 max-w-xl text-[15px] leading-7 text-ink-soft">Sou Micaela Alves, advogada em Igarapé, Minas Gerais. Atuo nas áreas de Família e Criminal, com ênfase em Violência Doméstica. Meu trabalho começa pela escuta: compreender a sua história é o primeiro passo para construir uma estratégia jurídica adequada à sua realidade.</p>
+              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Acredito em uma advocacia que aproxima o Direito das pessoas. Por isso, conduzo o atendimento com linguagem clara, sigilo e atenção às particularidades de cada situação, para que você compreenda as possibilidades e os próximos passos.</p>
+              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Histórias reais pedem cuidado e responsabilidade. É com esse compromisso que coloco a estratégia jurídica a serviço da proteção dos seus direitos.</p>
               <a href={contact} target="_blank" rel="noopener noreferrer" className="about-link group mt-8 inline-flex min-h-11 items-center gap-2 border-b border-brand-700/40 py-2 text-sm font-semibold text-brand-800 transition-colors hover:text-brand-700">Conheça o atendimento <ArrowUpRight size={16} /></a>
             </div>
           </div>
@@ -493,7 +493,7 @@ export default function Home() {
               {[
                 [
                   "Primeiro, a sua história",
-                  "Conte sua situação pelo WhatsApp e receba informações para agendar um atendimento com nossa equipe em Manhumirim.",
+                  "Conte sua situação pelo WhatsApp e receba informações para agendar um atendimento com a Micaela em Igarapé.",
                 ],
                 [
                   "Depois, os documentos",
@@ -528,11 +528,11 @@ export default function Home() {
               {[
                 ["Como funciona o primeiro contato?", `Envie uma mensagem pelo WhatsApp ou ligue para ${brand.phone}. Conte brevemente sua situação para receber informações sobre o atendimento e os documentos iniciais necessários.`],
                 ["Onde fica o escritório?", `O escritório fica na ${brand.address}. Entre em contato para combinar sua visita.`],
-                ["Como agendar uma consulta?", "Fale com a equipe pelo WhatsApp ou por telefone. Você receberá informações sobre a disponibilidade, a modalidade do atendimento e os documentos iniciais para sua demanda."],
+                ["Como agendar uma consulta?", "Fale com a Micaela pelo WhatsApp ou por telefone. Você receberá informações sobre a disponibilidade, a modalidade do atendimento e os documentos iniciais para sua demanda."],
                 ["Quais documentos devo separar?", "Os documentos variam conforme a situação. Documentos pessoais e registros relacionados à sua demanda podem ajudar na análise. No agendamento, você receberá orientação sobre o que apresentar para o seu caso."],
               ].map(([question, answer]) => (
                 <details key={question} className="group py-6">
-                  <summary className="cursor-pointer text-base font-semibold text-ink marker:text-brand-700">{question}</summary>
+                  <summary className="min-h-11 cursor-pointer text-base font-semibold text-ink marker:text-brand-700">{question}</summary>
                   <p className="mt-4 max-w-xl text-sm leading-7 text-ink-soft">{answer}</p>
                 </details>
               ))}
@@ -540,46 +540,33 @@ export default function Home() {
           </div>
         </section>
 
-        <section
-          id="avaliacoes"
-          className="scroll-mt-24 bg-white py-20 sm:py-28 lg:py-32"
-        >
+        <section id="avaliacoes" className="scroll-mt-24 bg-paper py-20 sm:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-            <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
-              <Heading description="Trechos de avaliações publicadas no perfil da Rodrigues de Carvalho Advogados no Google.">
-                Conheça outras{" "}
-                <span className="text-brand-700">experiências.</span>
-              </Heading>
-              <a href={reviews} target="_blank" rel="noopener noreferrer" aria-label={`Nota ${brand.googleRating.toFixed(1).replace(".", ",")} de 5. Ver as ${brand.googleReviewCount} avaliações no Google`} className="group flex w-fit flex-col gap-3 border-l border-ink/15 py-1 pl-6 text-ink transition-colors hover:text-brand-700">
-                <span className="flex items-baseline gap-3">
-                  <span className="text-4xl font-semibold tracking-[-0.03em]">{brand.googleRating.toFixed(1).replace(".", ",")}</span>
-                  <span className="text-sm text-ink-soft">de 5 no Google</span>
-                </span>
-                <span className="flex gap-1 text-brand-700" aria-hidden="true">
-                  {Array.from({ length: 5 }, (_, index) => <Star key={index} size={15} fill="currentColor" strokeWidth={1.5} />)}
-                </span>
-                <span className="inline-flex items-center gap-2 text-xs font-semibold">{brand.googleReviewCount} avaliações no Google <ArrowUpRight size={15} aria-hidden="true" /></span>
-              </a>
+            <div className="grid items-center gap-10 lg:grid-cols-[1fr_0.8fr] lg:gap-24">
+            <Heading description="Conheça algumas experiências compartilhadas por quem já foi atendido pela Micaela Alves Advocacia.">
+              A confiança também se constrói <span className="text-brand-700">na escuta.</span>
+            </Heading>
+            <div className="border-y border-ink/15 py-8">
+              <h3 className="font-display text-2xl text-ink">Experiências no Google</h3>
+              <p className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm leading-7 text-ink">
+                <span className="inline-flex items-center gap-2 font-semibold"><Star size={17} fill="currentColor" className="text-brand-700" aria-hidden="true" />{brand.googleRating.toFixed(1).replace(".", ",")} de 5</span>
+                <span className="text-ink-soft">{brand.googleReviewCount} avaliações no Google</span>
+              </p>
+              <a href={reviews} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-3 text-sm font-semibold text-brand-700 underline underline-offset-4 hover:text-ink">Ver todas as avaliações <ArrowUpRight size={17} aria-hidden="true" /></a>
+            </div>
             </div>
             <div className="mt-12 grid divide-y divide-ink/15 border-y border-ink/15 md:grid-cols-3 md:divide-x md:divide-y-0">
               {googleReviews.map((review) => (
-                <figure key={review.author} className="flex min-w-0 flex-col gap-6 py-8 md:px-8 md:first:pl-0 md:last:pr-0">
-                  <span className="flex gap-1 text-brand-700" role="img" aria-label={`${review.rating} de 5 estrelas`}>
-                    {Array.from({ length: review.rating }, (_, index) => <Star key={index} size={15} fill="currentColor" strokeWidth={1.5} aria-hidden="true" />)}
-                  </span>
-                  <blockquote className="flex-1 text-lg font-medium leading-8 text-ink">
+                <figure key={review.author} className="flex min-w-0 flex-col gap-6 py-8 md:px-7 md:first:pl-0 md:last:pr-0">
+                  <blockquote className="flex-1 text-base leading-8 text-ink">
                     <p>“{review.excerpt}”</p>
                   </blockquote>
-                  <figcaption className="flex flex-col items-start gap-2">
-                    <span className="text-sm font-semibold text-ink">{review.author}</span>
-                    <a href={review.url} target="_blank" rel="noopener noreferrer" aria-label={`Ler a avaliação de ${review.author} no Google`} className="inline-flex min-h-11 items-center gap-2 text-xs font-semibold text-brand-700 underline underline-offset-4 transition-colors hover:text-brand-800">Ler no Google <ArrowUpRight size={14} aria-hidden="true" /></a>
-                  </figcaption>
+                  <figcaption className="text-sm font-semibold leading-6 text-brand-700">{review.author}</figcaption>
                 </figure>
               ))}
             </div>
-            <p className="mt-5 text-xs leading-6 text-ink-soft">Trechos de avaliações públicas. Nota e quantidade consultadas em {brand.googleReviewsCheckedOn}. Leia os relatos completos no Google.</p>
+            <p className="mt-5 text-xs leading-6 text-ink-soft">Trechos selecionados de avaliações no Google. Nota e quantidade registradas em {brand.googleReviewsProvidedOn}. Consulte os relatos completos e os dados atuais no perfil.</p>
           </div>
-
         </section>
 
         <section
@@ -590,20 +577,20 @@ export default function Home() {
             <div>
               <Heading
 
-                description="Precisa de orientação jurídica? Fale com a Rodrigues de Carvalho Advogados para receber informações e agendar seu atendimento."
+                description="Precisa de orientação em Família, Criminal ou Violência Doméstica? Entre em contato com a Micaela para receber informações sobre o atendimento."
               >
                 Um primeiro contato com{" "}
                 <span className="text-brand-700">tranquilidade.</span>
               </Heading>
               <div className="mt-9 flex flex-col items-start gap-4">
-                <GlowingButton
+                <PrimaryButton
                   href={whatsapp}
                   target="_blank"
                   size="lg"
                   className="rounded-none"
                 >
-                  <WhatsAppMark size={17} /> Fale com nossa equipe
-                </GlowingButton>
+                  <WhatsAppMark size={17} /> Fale com a Micaela
+                </PrimaryButton>
                 <a href={telephone} className="inline-flex min-h-11 items-center gap-2 text-sm text-brand-700 hover:text-brand-800"><Phone size={16} /> Ligue: {brand.phone}</a>
                 <a href={brand.instagram} target="_blank" rel="noopener noreferrer" className="contact-handle inline-flex min-h-11 max-w-full items-center gap-2 py-2 text-sm text-brand-700 hover:text-brand-800"><Camera size={16} /> {brand.instagramHandle}</a>
               </div>
@@ -615,10 +602,10 @@ export default function Home() {
                   <MapPin size={21} strokeWidth={1.6} />
                 </span>
                 <div>
-                  <h3 className="font-display text-2xl text-ink">Nosso escritório em Manhumirim</h3>
+                  <h3 className="font-display text-2xl text-ink">Nosso escritório em Igarapé</h3>
                 </div>
               </div>
-              <p className="mt-6 text-sm font-semibold text-brand-700">Rodrigues de Carvalho Advogados</p>
+              <p className="mt-6 text-sm font-semibold text-brand-700">Micaela Alves Advocacia</p>
               <address className="mt-2 max-w-md not-italic text-[14px] leading-7 text-ink-soft">
                 {brand.address}
               </address>
@@ -631,7 +618,7 @@ export default function Home() {
                   href={maps}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-none border border-ink/15 px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.13em] text-ink transition-colors hover:border-brand-700 hover:text-brand-700"
+                  className="inline-flex items-center gap-2 rounded-none border border-ink/15 px-5 py-3 text-xs font-semibold uppercase tracking-[0.13em] text-ink transition-colors hover:border-brand-700 hover:text-brand-700"
                 >
                   Ver no Google Maps <ArrowUpRight size={14} />
                 </a>
@@ -651,7 +638,7 @@ export default function Home() {
               href={whatsapp}
               target="_blank"
               rel="noreferrer"
-              className="group inline-flex w-fit shrink-0 items-center gap-3 rounded-none bg-white px-6 py-4 text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-800 transition-transform hover:-translate-y-0.5"
+              className="group inline-flex w-fit shrink-0 items-center gap-3 rounded-none bg-white px-6 py-4 text-xs font-semibold uppercase tracking-[0.14em] text-brand-800 transition-transform hover:-translate-y-0.5"
             >
               Fale pelo WhatsApp <ArrowUpRight size={15} />
             </a>
@@ -661,30 +648,30 @@ export default function Home() {
         <footer className="brand-footer bg-brand-950 px-5 py-12 text-brand-100 sm:px-8 lg:px-12">
           <div className="mx-auto grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr_1fr]">
             <div>
-              <div className="inline-flex">
+              <div className="inline-flex bg-paper px-3 py-1">
                 <Image
                   src={brand.logo}
-                  width={1774}
-                  height={887}
+                  width={2171}
+                  height={724}
                   alt={brand.businessName}
                   className="h-auto w-[240px]"
                   sizes="240px"
                 />
               </div>
               <p className="mt-4 max-w-xs text-xs leading-6 text-ink-soft">
-                Orientação jurídica com atenção, clareza e responsabilidade em Manhumirim, Minas Gerais.
+                Advocacia de Família e Criminal, com ênfase em Violência Doméstica. Igarapé, Minas Gerais.
               </p>
             </div>
             <div>
-              <h2 className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-700">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-700">
                 Navegação
               </h2>
               <div className="mt-4 flex flex-col items-start gap-3 text-xs text-ink-soft">
                 <a className="footer-link" href="#atuacao">
-                  Nosso atendimento
+                  Áreas de atuação
                 </a>
                 <a className="footer-link" href="#sobre">
-                  Sobre o escritório
+                  Sobre a Micaela
                 </a>
                 <a className="footer-link" href="#avaliacoes">
                   Perfil no Google
@@ -695,7 +682,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-700">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-700">
                 Informações
               </h2>
               <div className="mt-4 flex flex-col items-start gap-3 text-xs text-ink-soft">
@@ -718,13 +705,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-ink/15 pt-5 text-[10px] text-ink-soft sm:flex-row sm:items-center sm:justify-between">
+          <div className="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-ink/15 pt-5 text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
             <p>
               © {new Date().getFullYear()} {brand.businessName}. Todos os direitos
               reservados.
             </p>
             <p>
-              Conteúdo informativo. Cada situação deve ser analisada
+              {brand.registration}. Conteúdo informativo. Cada situação deve ser analisada
               individualmente.
             </p>
           </div>
@@ -781,7 +768,7 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <GlowingButton
+                <PrimaryButton
                   href={whatsappFor(activeArea.title.toLowerCase())}
                   target="_blank"
                   size="md"
@@ -789,7 +776,7 @@ export default function Home() {
                 >
                   <Phone size={15} /> Conversar sobre este atendimento
                   <ArrowUpRight size={15} />
-                </GlowingButton>
+                </PrimaryButton>
               </motion.section>
             </motion.div>
           )}

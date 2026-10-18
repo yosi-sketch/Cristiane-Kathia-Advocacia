@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 
-interface GlowingButtonProps {
+interface PrimaryButtonProps {
   children: ReactNode;
   href?: string;
   target?: string;
@@ -11,14 +11,14 @@ interface GlowingButtonProps {
   size?: "sm" | "md" | "lg";
 }
 
-export default function GlowingButton({
+export default function PrimaryButton({
   children,
   href,
   target,
   onClick,
   className = "",
   size = "md",
-}: GlowingButtonProps) {
+}: PrimaryButtonProps) {
   const sizeClasses = {
     sm: "px-5 py-3 text-xs uppercase tracking-[0.08em]",
     md: "px-6 py-3.5 text-sm",
@@ -26,7 +26,7 @@ export default function GlowingButton({
   }[size];
 
   const classes =
-    "inline-flex min-h-11 max-w-full items-center justify-center gap-2 rounded-none border border-gold-muted bg-gold-muted font-semibold text-brand-950 transition-colors duration-200 hover:border-brand-100 hover:bg-brand-100 focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-gold-muted " +
+    "primary-button inline-flex min-h-11 max-w-full items-center justify-center gap-2 rounded-none border border-brand-800 bg-brand-800 font-semibold text-white transition-colors duration-200 hover:border-brand-700 hover:bg-brand-700 focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-brand-700 " +
     "select-none text-center " +
     sizeClasses +
     " " +

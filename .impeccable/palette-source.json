@@ -1,0 +1,22 @@
+{
+  "source": "public/micaela-alves-logo.png",
+  "method": "Contagem de pixels RGB com alpha > 220. Ignora transparência e preserva os arquivos originais.",
+  "sampled": {
+    "navy": {
+      "hex": "#09182f",
+      "opaquePixelCount": 1549
+    },
+    "silver": {
+      "hex": "#767b89",
+      "opaquePixelCount": 29
+    }
+  },
+  "derived": {
+    "silverAccessibleOnNavy": "#b8c1cd",
+    "bodyInk": "#09182f",
+    "secondaryTextOnLight": "#4c5b70",
+    "paper": "#ffffff",
+    "ivory": "#f5f6f8"
+  },
+  "reason": "Azul do wordmark e cinza prateado do monograma. A prata é clareada para ações e títulos sobre azul; fundos brancos preservam o contraste do logo original."
+}
