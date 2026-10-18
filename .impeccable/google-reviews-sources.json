@@ -1,0 +1,26 @@
+{
+  "profile": "https://www.google.com/maps?cid=17098868018538276325",
+  "checkedAt": "2026-10-17",
+  "timezone": "America/Sao_Paulo",
+  "rating": 5,
+  "count": 11,
+  "method": "Leitura do perfil público no Google Maps; URLs diretas copiadas do diálogo Compartilhar de cada relato.",
+  "reviews": [
+    {
+      "author": "Jessiana Emerick",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/JgCDBvUW9Pb1zQxR9"
+    },
+    {
+      "author": "GIOVANI RODRIGUES",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/DnXJguALhsLmwDVn8"
+    },
+    {
+      "author": "Keyla Monteiro Lopes",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/KnAv9mJuJH16k1sw9"
+    }
+  ],
+  "note": "Trechos curtos e fiéis aos relatos; nenhuma foto dos avaliadores foi copiada e não há sincronização ao vivo."
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T01:09:33.183Z",
+  "title": "Design System: Rodrigues de Carvalho Advogados",
+  "extensions": {
+    "colorMeta": {
+      "brand-50": {
+        "role": "primary",
+        "displayName": "Dourado de superfície",
+        "canonical": "#f8f3e9"
+      },
+      "brand-100": {
+        "role": "primary",
+        "displayName": "Dourado de leitura clara",
+        "canonical": "#f1e4ca"
+      },
+      "brand-200": {
+        "role": "primary",
+        "displayName": "Dourado de ênfase nas etapas",
+        "canonical": "#e9c990"
+      },
+      "brand-300": {
+        "role": "primary",
+        "displayName": "Variação dourada do tema",
+        "canonical": "#efc27f"
+      },
+      "brand-400": {
+        "role": "primary",
+        "displayName": "Dourado institucional",
+        "canonical": "#dfa85c"
+      },
+      "brand-500": {
+        "role": "primary",
+        "displayName": "Dourado médio",
+        "canonical": "#bb843b"
+      },
+      "brand-600": {
+        "role": "primary",
+        "displayName": "Dourado do traço de endereço",
+        "canonical": "#946a2f"
+      },
+      "brand-700": {
+        "role": "primary",
+        "displayName": "Dourado de texto acessível",
+        "canonical": "#805b27"
+      },
+      "brand-800": {
+        "role": "primary",
+        "displayName": "Dourado profundo",
+        "canonical": "#65471e"
+      },
+      "brand-900": {
+        "role": "neutral",
+        "displayName": "Azul-marinho de apoio",
+        "canonical": "#152b44"
+      },
+      "brand-950": {
+        "role": "neutral",
+        "displayName": "Azul-marinho institucional",
+        "canonical": "#0b1a2f"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta azul",
+        "canonical": "#10243a"
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Tinta secundária",
+        "canonical": "#536174"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Branco",
+        "canonical": "#ffffff"
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Superfície clara",
+        "canonical": "#f0f2f4"
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Neutro complementar",
+        "canonical": "#e5e9ed"
+      },
+      "header-text": {
+        "role": "neutral",
+        "displayName": "Texto claro do cabeçalho",
+        "canonical": "#e4e9f0"
+      },
+      "hero-text": {
+        "role": "neutral",
+        "displayName": "Texto secundário do hero",
+        "canonical": "#cbd5e2"
+      },
+      "dark-divider": {
+        "role": "neutral",
+        "displayName": "Divisória clara sobre azul-marinho",
+        "canonical": "rgb(255 255 255 / 15%)"
+      },
+      "footer-divider": {
+        "role": "neutral",
+        "displayName": "Divisória prateada do rodapé",
+        "canonical": "rgb(192 192 192 / 25%)"
+      },
+      "gold-muted": {
+        "role": "primary",
+        "displayName": "Dourado fosco",
+        "canonical": "#c7aa76"
+      },
+      "dark-text": {
+        "role": "neutral",
+        "displayName": "Leitura sobre azul",
+        "canonical": "#c2ccd8"
+      },
+      "gold-frame": {
+        "role": "primary",
+        "displayName": "Contorno do Sobre",
+        "canonical": "rgb(199 170 118 / 28%)"
+      },
+      "gold-underline": {
+        "role": "primary",
+        "displayName": "Sublinhado do Sobre",
+        "canonical": "rgb(199 170 118 / 55%)"
+      },
+      "gold-caption-divider": {
+        "role": "primary",
+        "displayName": "Divisória da legenda",
+        "canonical": "rgb(199 170 118 / 40%)"
+      },
+      "assurance-divider": {
+        "role": "neutral",
+        "displayName": "Divisória da faixa informativa",
+        "canonical": "rgb(255 255 255 / 12%)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título do hero",
+        "purpose": "Libre Caslon Text 700; 36/48/52px, entrelinha 1.18, em 640/1024px."
+      },
+      "headline": {
+        "displayName": "Título de seção",
+        "purpose": "Libre Caslon Text 700; 32/40/48px, entrelinha 1.18. Passos 2rem/2.5rem/3.25rem intencionais no conjunto de títulos."
+      },
+      "pillar-title": {
+        "displayName": "Título de pilar",
+        "purpose": "Pilares institucionais, sem especialidades presumidas."
+      },
+      "dialog-title": {
+        "displayName": "Título do diálogo",
+        "purpose": "1.7rem no celular; 1.875rem em 640px."
+      },
+      "info-label": {
+        "displayName": "Descrição informativa",
+        "purpose": "11px na faixa de atendimento."
+      },
+      "body": {
+        "displayName": "Leitura",
+        "purpose": "Montserrat nos textos e controles."
+      },
+      "label": {
+        "displayName": "Ação",
+        "purpose": "Peso 600 nos CTAs."
+      },
+      "info-value-tablet": {
+        "displayName": "Valor informativo",
+        "purpose": "Span Libre Caslon Text 400 em 1.7rem; a regra de peso 700 limita-se a h1/h2/h3.font-display."
+      },
+      "institutional-title": {
+        "displayName": "Wordmark do Sobre",
+        "purpose": "Montserrat 14px/24px, 600, caixa alta, tracking 0.08em."
+      },
+      "team-caption": {
+        "displayName": "Nome sob a equipe",
+        "purpose": "Montserrat 14px/24px, 600, tracking 0.02em, alinhado à esquerda."
+      },
+      "label-small": {
+        "displayName": "CTA do cabeçalho",
+        "purpose": "Montserrat 12px/16px, 600, caixa alta, tracking 0.08em."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 18px 48px rgb(11 26 47 / 18%)",
+        "purpose": "Sombra estrutural exclusiva do diálogo; a camada de fundo usa ink a 55% e desfoque de 8px."
+      }
+    ],
+    "motion": [
+      {
+        "name": "navigation",
+        "value": "180ms ease",
+        "purpose": "Cor e sublinhado da navegação; cor dos links do rodapé."
+      },
+      {
+        "name": "cta",
+        "value": "200ms",
+        "purpose": "Transição de fundo e borda do CTA compartilhado."
+      },
+      {
+        "name": "menu",
+        "value": "220ms",
+        "purpose": "Altura e opacidade da navegação móvel."
+      },
+      {
+        "name": "dialog",
+        "value": "240ms",
+        "purpose": "Entrada e saída do diálogo; y 24/16 e scale .98/.99."
+      },
+      {
+        "name": "signature",
+        "value": "1000ms cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "Revelação da fotografia da equipe, de clip-path inset(0 0 12% 0) a inset(0), terminando inteira."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none (hero-signature); 0.01ms (CSS); reducedMotion:user (MotionConfig)",
+        "purpose": "Desativa a revelação, reduz durações CSS e usa rolagem automática."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "logo",
+        "value": "360px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "CTA principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "GlowingButton md: dourado fosco, plano e reto, com texto azul-marinho.",
+      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5533999988635?text=Ol%C3%A1%2C%20Rodrigues%20de%20Carvalho%20Advogados!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20agendar%20um%20atendimento%20jur%C3%ADdico.\" target=\"_blank\" rel=\"noopener noreferrer\">Fale com nossa equipe <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-gold-muted,#c7aa76);border-radius:0;background:var(--color-gold-muted,#c7aa76);color:var(--color-brand-950,#0b1a2f);font:600 14px/20px var(--font-body,\"Montserrat\"),system-ui,sans-serif;text-align:center;text-decoration:none;user-select:none;transition:background-color 200ms,border-color 200ms}.ds-primary:hover{background:var(--color-brand-100,#f1e4ca);border-color:var(--color-brand-100,#f1e4ca)}.ds-primary:focus-visible{outline:2px solid var(--color-gold-muted,#c7aa76);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms;animation-duration:.01ms}}"
+    },
+    {
+      "name": "CTA inverso",
+      "kind": "button",
+      "refersTo": "button-inverse",
+      "description": "Ação branca com cantos retos sobre a chamada final azul-marinho.",
+      "html": "<div class=\"ds-final-band\"><a class=\"ds-inverse\" href=\"https://wa.me/5533999988635?text=Ol%C3%A1%2C%20Rodrigues%20de%20Carvalho%20Advogados!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20agendar%20um%20atendimento%20jur%C3%ADdico.\" target=\"_blank\" rel=\"noopener noreferrer\">Fale pelo WhatsApp <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></div>",
+      "css": ".ds-final-band{padding:56px 20px;background:var(--color-brand-950,#0b1a2f)}.ds-inverse{display:inline-flex;align-items:center;gap:12px;padding:16px 24px;border-radius:0;background:var(--color-paper,#ffffff);color:var(--color-brand-800,#65471e);font:600 10px/15px var(--font-body,\"Montserrat\"),system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;transition:transform 150ms}.ds-inverse:hover{transform:translateY(-2px)}.ds-inverse:focus-visible{outline:2px solid white;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-inverse{transition-duration:.01ms;animation-duration:.01ms}}"
+    },
+    {
+      "name": "Navegação principal",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Prévia dos links desktop sobre azul-marinho; o app alterna para menu móvel abaixo de 1024px.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;align-items:center;gap:28px;background:var(--color-brand-950,#0b1a2f)}.ds-nav a{position:relative;padding:12px 0;color:#e4e9f0;font:600 15px/1.5 var(--font-body,\"Montserrat\"),system-ui,sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;content:\"\";background:var(--color-gold-muted,#c7aa76);transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-gold-muted,#c7aa76)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-400,#dfa85c);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav a,.ds-nav a::after{transition-duration:.01ms;animation-duration:.01ms}}"
+    },
+    {
+      "name": "Pergunta frequente",
+      "kind": "custom",
+      "description": "Disclosure nativo da seção clara de perguntas; conteúdo e comportamento independem de JavaScript.",
+      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>O escritório fica na Rua João Maroni · Edifício Shopping Center · sala 08 — Centro, Manhumirim — MG, 36970-000. Entre em contato para combinar sua visita.</p></details>",
+      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(16 36 58 / 15%);background:var(--color-linen,#e5e9ed);color:var(--color-ink,#10243a);font:400 14px/28px var(--font-body,\"Montserrat\"),system-ui,sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;line-height:24px;font-weight:600}.ds-faq summary::marker{color:var(--color-brand-700,#805b27)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#805b27);outline-offset:4px}.ds-faq p{max-width:36rem;margin:16px 0 0;color:var(--color-ink-soft,#536174)}"
+    },
+    {
+      "name": "Linha de pilar institucional",
+      "kind": "custom",
+      "refersTo": "pillar-row",
+      "description": "Orientação jurídica é um pilar de atendimento; o app abre seu diálogo na ação Saiba mais.",
+      "html": "<article class=\"ds-pillar\"><span class=\"ds-pillar-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\"></path><path d=\"M7 11h10\"></path><path d=\"M7 15h6\"></path><path d=\"M7 7h8\"></path></svg></span><div><h3>Orientação jurídica</h3><p>Uma conversa para compreender sua situação, esclarecer dúvidas e entender os próximos passos.</p></div><button type=\"button\" aria-haspopup=\"dialog\" aria-label=\"Saiba mais sobre orientação jurídica\">Saiba mais <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg></button></article>",
+      "css": ".ds-pillar{display:grid;align-items:start;gap:20px;padding:32px 0;border-block:1px solid rgb(16 36 58 / 15%);background:var(--color-ivory,#f0f2f4)}.ds-pillar-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:0;border:1px solid rgb(16 36 58 / 20%);color:var(--color-ink,#10243a)}.ds-pillar h3{margin:0;max-width:36rem;font:700 1.55rem/1.25 var(--font-display-face,\"Libre Caslon Text\"),Georgia,serif;letter-spacing:-.025em;color:var(--color-ink,#10243a)}.ds-pillar p{margin:12px 0 0;max-width:36rem;font:400 13px/24px var(--font-body,\"Montserrat\"),system-ui,sans-serif;color:var(--color-ink-soft,#536174)}.ds-pillar button{display:inline-flex;align-items:center;gap:8px;min-height:44px;width:fit-content;padding:0;border:0;background:transparent;color:var(--color-brand-800,#65471e);font:600 12px/16px var(--font-body,\"Montserrat\"),system-ui,sans-serif;cursor:pointer}.ds-pillar button svg{transition:transform 150ms}.ds-pillar button:hover{color:var(--color-brand-700,#805b27)}.ds-pillar button:hover svg{transform:translateX(4px)}.ds-pillar button:focus-visible{outline:2px solid var(--color-brand-700,#805b27);outline-offset:4px}@media(min-width:640px){.ds-pillar{grid-template-columns:48px 1fr auto;gap:28px;padding:36px 0}.ds-pillar h3{font-size:1.8rem}.ds-pillar button{align-self:center}}@media(prefers-reduced-motion:reduce){.ds-pillar button svg{transition-duration:.01ms;animation-duration:.01ms}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Atenção e clareza",
+    "overview": "Azul-marinho e dourado dão presença institucional ao logo e à fotografia real da equipe. Libre Caslon Text 700 organiza os títulos; Montserrat sustenta a leitura e os controles. A presença mais firme e premium combina dourado fosco e controles retos. Superfícies claras, divisórias finas e controles planos favorecem uma comunicação atenta e compreensível.\n\nRegistro extraído de app/globals.css, app/page.tsx, app/layout.tsx, app/components/GlowingButton.tsx app/lib/brand.ts e app/lib/reviews.ts. O frontmatter é normativo; .impeccable/design.json reúne extensões e exemplos. PRODUCT.md e a direção vigente fornecem as restrições confirmadas.",
+    "dos": [
+      "Do preservar o logo e a fotografia originais, sem corte nem distorção.",
+      "Do usar dourado escuro para texto nas superfícies claras e texto azul-marinho nos CTAs dourados.",
+      "Do manter foco visível, fundo inerte, retorno do foco e movimento reduzido.",
+      "Do usar apenas dados confirmados e os três pilares institucionais.",
+      "Do manter avaliações reais com autoria, link direto e data de consulta, usando app/lib/reviews.ts."
+    ],
+    "donts": [
+      "Don't recolorir os assets ou acrescentar brilho aos CTAs planos.",
+      "Don't ocultar conteúdo até a rolagem ou exigir animação para acessar informações.",
+      "Don't inventar especialidades, credenciais, notas, depoimentos ou promessas de resultado."
+    ]
+  }
+}
