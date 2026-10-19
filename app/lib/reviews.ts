@@ -1,16 +1,28 @@
-// Trechos literais do material do Google enviado pelo cliente em 18/10/2026.
-// O material não informa notas nem links individuais de cada relato.
+// Trechos literais das avaliações do Google fornecidas pelo cliente em 18/10/2026.
+// As notas individuais e os links de cada avaliação não constam no material.
 export const googleReviews = [
   {
-    author: "Rosiane Resende",
-    excerpt: "Paciente para explicar toda a situação e todas as possibilidades sobre o caso.",
+    author: "Regiane Mendes",
+    excerpt: "Excelente atendimento, profissionais atenciosas e muito competentes. Fui muito bem orientada por Dra Cristiane e Dra Kathia em todo o processo, com clareza, respeito e dedicação.",
   },
   {
-    author: "Bruna Gabriela Ferreira",
-    excerpt: "Uma profissional extremamente competente, atenciosa e, acima de tudo, humana.",
+    author: "Euza Alves Moreira",
+    excerpt: "Atendimento personalizado, escritório acolhedor e uma equipe pronta para atender com atenção e carinho.",
   },
   {
-    author: "Marco Aurélio",
-    excerpt: "Desde o primeiro atendimento, demonstrou muito profissionalismo, competência e atenção aos detalhes do meu caso.",
+    author: "Mariuza Batista de Oliveira",
+    excerpt: "Escritório de advocacia superou as minhas expectativas. Atendimento humanizado e diferenciado pela atenção e conhecimento jurídico. Super indico.",
+  },
+  {
+    author: "Ronaldo Mendes",
+    excerpt: "Advogada humana, atenciosa e muito dedicada. Apresenta conhecimento jurídico nos seus serviços profissionais que remete a confiança e segurança. Muito satisfeito.",
+  },
+  {
+    author: "Mônica Botelho Rocha",
+    excerpt: "Excelentes advogadas. Profissionais, confiável, sempre disponível, esclarece bem as dúvidas, atenciosas e são ótimas pessoas.",
+  },
+  {
+    author: "Mauricio Nunes",
+    excerpt: "Serviço excelente! Fui muito bem assessorado, com atenção aos detalhes e eficiência.",
   },
 ] as const;

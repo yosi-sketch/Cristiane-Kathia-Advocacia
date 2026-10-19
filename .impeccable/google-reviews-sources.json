@@ -1,23 +1,38 @@
 {
-  "profile": "https://www.google.com/maps?cid=12951392828992382296",
+  "businessName": "Cristiane & Kathia — Advocacia Previdenciária",
+  "source": "Texto do Google colado pelo cliente",
+  "sourceFile": "C:/Users/matheus/.codex/attachments/ebe43671-1108-409c-a893-e8531dc1505c/Texto colado.txt",
   "providedOn": "2026-10-18",
-  "timezone": "America/Sao_Paulo",
-  "count": 119,
+  "googleMapsCid": "12021962043276666392",
+  "reviewCount": 54,
   "rating": 5,
-  "reviews": [
+  "ratingInterpretation": "Cabeçalho 5,054 avaliações: nota 5,0 e quantidade 54, confirmada no briefing anterior.",
+  "excerpts": [
     {
-      "author": "Rosiane Resende",
-      "excerpt": "Paciente para explicar toda a situação e todas as possibilidades sobre o caso."
+      "author": "Regiane Mendes",
+      "excerpt": "Excelente atendimento, profissionais atenciosas e muito competentes. Fui muito bem orientada por Dra Cristiane e Dra Kathia em todo o processo, com clareza, respeito e dedicação."
     },
     {
-      "author": "Bruna Gabriela Ferreira",
-      "excerpt": "Uma profissional extremamente competente, atenciosa e, acima de tudo, humana."
+      "author": "Euza Alves Moreira",
+      "excerpt": "Atendimento personalizado, escritório acolhedor e uma equipe pronta para atender com atenção e carinho."
     },
     {
-      "author": "Marco Aurélio",
-      "excerpt": "Desde o primeiro atendimento, demonstrou muito profissionalismo, competência e atenção aos detalhes do meu caso."
+      "author": "Mariuza Batista de Oliveira",
+      "excerpt": "Escritório de advocacia superou as minhas expectativas. Atendimento humanizado e diferenciado pela atenção e conhecimento jurídico. Super indico."
+    },
+    {
+      "author": "Ronaldo Mendes",
+      "excerpt": "Advogada humana, atenciosa e muito dedicada. Apresenta conhecimento jurídico nos seus serviços profissionais que remete a confiança e segurança. Muito satisfeito."
+    },
+    {
+      "author": "Mônica Botelho Rocha",
+      "excerpt": "Excelentes advogadas. Profissionais, confiável, sempre disponível, esclarece bem as dúvidas, atenciosas e são ótimas pessoas."
+    },
+    {
+      "author": "Mauricio Nunes",
+      "excerpt": "Serviço excelente! Fui muito bem assessorado, com atenção aos detalhes e eficiência."
     }
   ],
-  "method": "Nota agregada 5,0, quantidade 119 e trechos literais do Google enviados pelo usuário em Texto colado.txt. Sem verificação independente ao vivo. Sem notas ou URLs individuais inferidas.",
-  "providedFile": "C:/Users/matheus/.codex/attachments/199370c8-5df8-4cee-a513-24101f7ee2ab/Texto colado.txt"
+  "individualRatingsProvided": false,
+  "liveIntegration": false
 }

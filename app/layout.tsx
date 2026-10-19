@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Bodoni_Moda, Manrope } from "next/font/google";
+import { Libre_Caslon_Display, Manrope } from "next/font/google";
 import { brand } from "./lib/brand";
 import "./globals.css";
 
-const displayFont = Bodoni_Moda({
+const displayFont = Libre_Caslon_Display({
   variable: "--font-display-face",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "400",
   display: "swap",
 });
 
@@ -19,14 +19,14 @@ const bodyFont = Manrope({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.logo;
-const title = "Micaela Alves Advocacia | Família e Criminal em Igarapé, MG";
-const description = "Advocacia de Família e Criminal em Igarapé, MG, com ênfase em Violência Doméstica. Escuta, estratégia e atenção aos seus direitos. Micaela Alves — OAB/MG 220.712.";
+const title = "Cristiane & Kathia | Advocacia Previdenciária em Brasília de Minas";
+const description = "Orientação em aposentadorias, BPC/LOAS, direitos de pessoas com TEA, benefícios por incapacidade e Direito Cível. Cristiane & Kathia, em Brasília de Minas, MG.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: [brand.businessName, brand.name, "advogada em Igarapé", "Direito de Família", "Direito Criminal", "Violência Doméstica", "Igarapé MG"],
+  keywords: [brand.businessName, brand.name, "advogadas em Brasília de Minas", "Direito Previdenciário", "BPC LOAS", "TEA", "aposentadorias", "benefícios por incapacidade"],
   icons: { icon: [{ url: brand.logo, type: "image/png" }] },
   openGraph: {
     title,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 2171,
+            width: 2172,
             height: 724,
             alt: brand.businessName,
           },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#09182f",
+  themeColor: "#211b14",
 };
 
 export default function RootLayout({

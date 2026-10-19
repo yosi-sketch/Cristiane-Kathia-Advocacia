@@ -1,22 +1,27 @@
 {
-  "source": "public/micaela-alves-logo.png",
-  "method": "Contagem de pixels RGB com alpha > 220. Ignora transparência e preserva os arquivos originais.",
+  "source": "public/cristiane-kathia-logo.png",
+  "method": "Pixels com alpha >= 220, R >= 60, R > G × 1.05, G > B × 1.2, agrupados por canal em intervalos de 12; transparência ignorada.",
   "sampled": {
-    "navy": {
-      "hex": "#09182f",
-      "opaquePixelCount": 1549
+    "lightGold": {
+      "hex": "#fce478",
+      "pixelCount": 7683
     },
-    "silver": {
-      "hex": "#767b89",
-      "opaquePixelCount": 29
+    "gold": {
+      "hex": "#d8a848",
+      "pixelCount": 3422
+    },
+    "bronze": {
+      "hex": "#9c6c24",
+      "pixelCount": 3382
     }
   },
   "derived": {
-    "silverAccessibleOnNavy": "#b8c1cd",
-    "bodyInk": "#09182f",
-    "secondaryTextOnLight": "#4c5b70",
-    "paper": "#ffffff",
-    "ivory": "#f5f6f8"
+    "dark": "#211b14",
+    "darkSurface": "#30261a",
+    "textOnLight": "#675b4b",
+    "accessibleBronze": "#75501b",
+    "ivory": "#f8f5ee",
+    "paper": "#fffdf8"
   },
-  "reason": "Azul do wordmark e cinza prateado do monograma. A prata é clareada para ações e títulos sobre azul; fundos brancos preservam o contraste do logo original."
+  "typographyReason": "Libre Caslon Display: capitulares romanas, serifas marcadas e proporções próximas ao wordmark. Manrope: contraste de função e legibilidade em textos e controles."
 }

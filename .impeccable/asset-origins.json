@@ -1,22 +1,35 @@
 [
   {
-    "path": "public/micaela-alves-logo.png",
-    "origin": "C:/Users/matheus/Downloads/Logotipo Jurídico Micaela Alves.png",
-    "width": 2171,
+    "path": "public/cristiane-kathia-logo.png",
+    "origin": "C:/Users/matheus/Downloads/Emblema Dourado de Advocacia Luxuosa.png",
+    "width": 2172,
     "height": 724,
-    "transformation": "Cópia binária integral do anexo, sem edição.",
-    "sha256": "3cc2d0fb8be2e68f2cc3c376217b0cc6a5f03144d344750980b67f9dac0c143b",
-    "sourceSha256": "3cc2d0fb8be2e68f2cc3c376217b0cc6a5f03144d344750980b67f9dac0c143b",
-    "identicalToSource": true
+    "transformation": "Cópia integral do anexo; somente metadados de origem adicionados. Pixels idênticos ao original.",
+    "sha256": "acf943b46f9ebaee4592920cc643fedd8696fa6b21c6d52daa1d0a83a390400b",
+    "sourceSha256": "8f86f807ebe845670fdeb4b8ccd5774741742a5f407c205ca9bf4a34e80d0030",
+    "identicalToSource": false,
+    "identicalPixels": true
   },
   {
-    "path": "public/micaela-alves-retrato.png",
-    "origin": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-cbe116e0-1c97-4282-ab76-d5467ab75c7b.png",
-    "width": 633,
-    "height": 729,
-    "transformation": "Cópia binária integral do anexo, sem edição.",
-    "sha256": "1475eae00b980107bc7e9feb71bf45d6e7fe8d09dec687885264052d3fb65e94",
-    "sourceSha256": "1475eae00b980107bc7e9feb71bf45d6e7fe8d09dec687885264052d3fb65e94",
-    "identicalToSource": true
+    "path": "public/cristiane-kathia-institucional.png",
+    "origin": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-bfef0e9b-f105-40f2-b17f-b593cada7f5f.png",
+    "width": 341,
+    "height": 510,
+    "transformation": "Cópia integral do anexo; somente metadados de origem adicionados. Pixels idênticos ao original.",
+    "sha256": "65253ac5f172c13353653f041b0e63a3d9f9a88640cf0350c4d57483a0f3a63a",
+    "sourceSha256": "4bdd6b9258e26fc8156207d50ff547d80aaa0e340244224c61ae62d35a026242",
+    "identicalToSource": false,
+    "identicalPixels": true
+  },
+  {
+    "path": "public/cristiane-kathia-retrato.png",
+    "origin": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-b9ea250d-a881-4edd-9733-421abced573a.png",
+    "width": 287,
+    "height": 510,
+    "transformation": "Cópia integral do anexo; somente metadados de origem adicionados. Pixels idênticos ao original.",
+    "sha256": "f080424053e60d44255a86664f290c4fb5e4546351727f701fae665198a97a2b",
+    "sourceSha256": "9b6eb5f407ccc0b8b3c3220cac3ac9e7374bd797434dc40dc1945503408403ce",
+    "identicalToSource": false,
+    "identicalPixels": true
   }
 ]

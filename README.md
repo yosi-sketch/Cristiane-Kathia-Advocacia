@@ -1,25 +1,27 @@
-# Micaela Alves Advocacia
+# Cristiane & Kathia — Advocacia Previdenciária
 
-Site institucional em pt-BR para atuação em Família e Criminal, com ênfase em Violência Doméstica, em Igarapé, MG.
+Site institucional em pt-BR para Brasília de Minas, MG. Áreas: aposentadorias, BPC/LOAS, direitos de pessoas com TEA, benefícios por incapacidade e Direito Cível.
 
 ## Executar
 
-- Desenvolvimento: npm run dev -- --port 3008
-- Produção: npm run build e npm run start -- --port 3009
-- Verificação da aplicação: npm run lint -- app
+- Desenvolvimento: npm run dev
+- Produção: npm run build e npm run start
+- Verificação: npm run lint -- app
 
-Next.js 16.3.5, React 19.2.8 e Tailwind CSS 4. Leia AGENTS.md e os guias locais em node_modules/next/dist/docs antes de alterar APIs.
+Next.js 16.3.5, React 19.2.8, Tailwind CSS 4. Leia AGENTS.md e os guias locais em node_modules/next/dist/docs antes de alterar APIs.
 
 ## Marca e conteúdo
 
-Dados e links em app/lib/brand.ts. Tema e tokens Tailwind em app/globals.css por @theme inline. Bodoni Moda e Manrope via next/font em app/layout.tsx. Menu móvel, FAQ e diálogos de áreas em app/page.tsx.
+Dados e links em app/lib/brand.ts. Tokens Tailwind em app/globals.css por @theme inline, conforme Tailwind 4; não é necessário um tailwind.config separado. Libre Caslon Display e Manrope via next/font em app/layout.tsx.
 
-Logo: public/micaela-alves-logo.png, 2171 × 724. Retrato: public/micaela-alves-retrato.png, 633 × 729. Cópias integrais dos anexos; origem e SHA-256 em .impeccable/asset-origins.json. O logo é exibido sobre branco para preservar seus traços azul-marinho e prata. Paleta de origem registrada em .impeccable/palette-source.json.
+Ouro #d8a848 e bronze #9c6c24 amostrados do logo; tons escuros e marfim para contraste. O logo é exibido sobre fundo escuro, sem alterar o arquivo. Documentação visual em DESIGN.md.
 
-Contato: (31) 99734-1475, WhatsApp 5531997341475, Instagram @micaelaalvesadv. Av. Gov. Valadares, 440 — Centro, Igarapé — MG, 32900-000. OAB/MG 220.712.
+Assets: public/cristiane-kathia-logo.png (2172 × 724), public/cristiane-kathia-institucional.png (341 × 510) e public/cristiane-kathia-retrato.png (287 × 510). Cópias integrais dos três anexos. Origem e SHA-256 em .impeccable/asset-origins.json.
 
-Google: acesso ao CID informado pelo cliente, 12951392828992382296. Nota agregada 5,0 e 119 avaliações no material enviado em 18/10/2026, sem integração ao vivo. Três trechos literais em app/lib/reviews.ts, com autoria, seleção explícita e acesso a todas as avaliações no perfil. Sem inferir notas ou URLs individuais.
+WhatsApp: 5538998162682. Telefone: (38) 99816-2682. Instagram: @cristiane.kathiaadvogadas. Endereço: Rua Cap. Bernadino, 36 — Brasília de Minas — MG, 39330-000.
 
-## Dados não fornecidos
+Google: CID 12021962043276666392, conforme o material do cliente; 54 avaliações informadas em 18/10/2026, sem integração ao vivo. Nota agregada 5,0 e seis depoimentos com autoria, em trechos literais do material enviado pelo cliente. Sem notas individuais fornecidas.
 
-E-mail e domínio. Configure NEXT_PUBLIC_SITE_URL somente quando houver um domínio real. Não é feita promessa de atendimento 24h.
+## Dados pendentes
+
+E-mail, registros de OAB, domínio e identificação individual das fotografias não foram fornecidos. Configure NEXT_PUBLIC_SITE_URL quando houver um domínio real, para habilitar imagens de compartilhamento com URL absoluta.

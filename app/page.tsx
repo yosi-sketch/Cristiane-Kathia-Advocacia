@@ -44,22 +44,28 @@ const stagger: Variants = {
 
 const areas = [
   {
-    title: "Direito de Família", icon: HeartHandshake,
-    summary: "Cuidado com os vínculos e atenção às decisões que fazem parte da sua história.",
-    details: "Questões de família envolvem relações, escolhas e mudanças importantes. O atendimento parte da escuta da sua história para analisar a demanda, esclarecer suas dúvidas e definir as providências adequadas ao seu contexto.",
-    topics: ["Escuta das questões familiares", "Análise da situação e dos documentos", "Esclarecimento sobre os caminhos possíveis", "Acompanhamento conforme o escopo contratado"],
+    title: "Aposentadorias", icon: Scale,
+    summary: "Seu histórico de trabalho merece uma análise cuidadosa para compreender os caminhos da aposentadoria.",
+    details: "O atendimento considera sua trajetória profissional e os documentos disponíveis para orientar os próximos passos de uma demanda de aposentadoria. Cada situação é analisada individualmente, com explicações claras sobre as possibilidades.",
+    topics: ["Análise do histórico contributivo", "Orientação sobre documentos", "Avaliação da demanda de aposentadoria", "Acompanhamento conforme o serviço contratado"],
   },
   {
-    title: "Direito Criminal", icon: Scale,
-    summary: "Análise criteriosa e estratégia jurídica para lidar com situações que exigem atenção e sigilo.",
-    details: "Uma demanda criminal pede análise cuidadosa dos fatos, dos documentos e do momento de cada caso. O atendimento busca tornar as etapas compreensíveis, com orientação individualizada, sigilo e responsabilidade.",
-    topics: ["Compreensão dos fatos e do contexto", "Análise da documentação disponível", "Orientação sobre as etapas da demanda", "Definição da estratégia jurídica do caso"],
+    title: "BPC/LOAS e direitos de pessoas com TEA", icon: HeartHandshake,
+    summary: "Atenção às pessoas idosas, às pessoas com deficiência e às famílias de pessoas com transtorno do espectro autista.",
+    details: "A atuação reúne orientação sobre o Benefício de Prestação Continuada e demandas relacionadas aos direitos de pessoas com TEA. A análise parte da realidade da pessoa e de sua família, dos documentos e dos critérios aplicáveis a cada pedido.",
+    topics: ["Escuta da pessoa e de sua família", "Análise da documentação apresentada", "Orientação sobre BPC/LOAS", "Avaliação individual de demandas relacionadas ao TEA"],
   },
   {
-    title: "Violência Doméstica", icon: ShieldCheck,
-    summary: "Escuta acolhedora e orientação jurídica com foco na proteção dos seus direitos.",
-    details: "A atuação em situações de violência doméstica exige acolhimento, cuidado e respeito à história de cada pessoa. O atendimento oferece espaço para compreender a demanda e conversar, com sigilo, sobre as providências jurídicas cabíveis à situação.",
-    topics: ["Acolhimento e escuta com sigilo", "Análise individual da situação", "Orientação sobre as providências jurídicas", "Acompanhamento da demanda conforme a análise"],
+    title: "Benefícios por incapacidade", icon: ShieldCheck,
+    summary: "Orientação para quem precisa compreender seus direitos diante de uma incapacidade temporária ou permanente.",
+    details: "Uma situação de incapacidade pede atenção ao histórico profissional e à documentação médica. O atendimento busca esclarecer a demanda e os caminhos possíveis para benefícios por incapacidade temporária ou permanente, conforme as particularidades do caso.",
+    topics: ["Compreensão do histórico de trabalho", "Análise dos documentos médicos disponíveis", "Orientação sobre a demanda previdenciária", "Definição das providências adequadas ao caso"],
+  },
+  {
+    title: "Direito Cível", icon: Scale,
+    summary: "Análise responsável de questões do dia a dia, com orientação jurídica próxima e compreensível.",
+    details: "O atendimento em Direito Cível começa pela compreensão dos fatos e pela análise dos documentos. A partir dessa conversa, são avaliadas as providências jurídicas pertinentes e o escopo de acompanhamento da demanda.",
+    topics: ["Escuta e compreensão da situação", "Análise dos documentos relacionados", "Esclarecimento dos caminhos jurídicos", "Acompanhamento conforme o escopo contratado"],
   },
 ];
 
@@ -151,17 +157,17 @@ export default function Home() {
       <main className="bg-ivory text-ink">
         <div ref={contentRef}>
         <a href="#inicio" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-none focus:bg-white focus:p-4 focus:text-ink">Ir para o conteúdo</a>
-        <header className="brand-header sticky top-0 z-40 border-b border-ink/10 bg-paper text-ink">
+        <header className="brand-header sticky top-0 z-40 border-b border-white/15 bg-brand-950 text-white">
           <div className="mx-auto flex h-[88px] max-w-7xl items-center justify-between gap-5 px-5 sm:h-[96px] sm:px-8 lg:px-12">
             <a
               href="#inicio"
-              aria-label="Micaela Alves Advocacia — início"
+              aria-label="Cristiane & Kathia — Advocacia Previdenciária — início"
               onClick={closeMenu}
               className="shrink-0"
             >
               <Image
                 src={brand.logo}
-                width={2171}
+                width={2172}
                 height={724}
                 alt={brand.businessName}
                 preload
@@ -194,8 +200,8 @@ export default function Home() {
                 href={contact}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp da Micaela Alves Advocacia"
-                className="grid size-11 place-items-center rounded-none border border-ink/20 text-brand-800 transition-colors hover:border-brand-700 hover:bg-brand-50"
+                aria-label="WhatsApp da Cristiane & Kathia — Advocacia Previdenciária"
+                className="grid size-11 place-items-center border border-gold/40 text-gold transition-colors hover:bg-brand-900"
               >
                 <WhatsAppMark size={17} strokeWidth={1.7} />
               </a>
@@ -213,7 +219,7 @@ export default function Home() {
               aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
               aria-expanded={menuOpen}
               aria-controls="mobile-navigation"
-              className="grid size-11 shrink-0 place-items-center rounded-none border border-ink/20 text-brand-800 lg:hidden"
+              className="grid size-11 shrink-0 place-items-center border border-gold/40 text-gold lg:hidden"
               onClick={() => setMenuOpen((open) => !open)}
             >
               {menuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -248,7 +254,7 @@ export default function Home() {
                     </a>
                   ))}
                   <a
-                    className="mt-3 inline-flex items-center justify-center gap-2 rounded-none bg-silver px-5 py-3.5 text-sm font-semibold text-brand-950"
+                    className="mt-3 inline-flex items-center justify-center gap-2 rounded-none bg-gold px-5 py-3.5 text-sm font-semibold text-brand-950"
                     href={whatsapp}
                     target="_blank"
                     rel="noreferrer"
@@ -277,14 +283,14 @@ export default function Home() {
                 variants={reveal}
                 className="max-w-[720px] font-display text-[2.25rem] leading-[1.18] tracking-[-0.025em] text-ink sm:text-[3rem] lg:text-[3.5rem]"
               >
-                Sua história importa.
-                <span className="block text-silver">Seus direitos, também.</span>
+                Seu futuro merece cuidado.
+                <span className="block text-gold">Seus direitos, atenção.</span>
               </motion.h1>
               <motion.p
                 variants={reveal}
                 className="mt-7 max-w-xl text-[15px] leading-7 text-ink-soft sm:text-base sm:leading-8"
               >
-                Advocacia de Família e Criminal, com ênfase em Violência Doméstica. Escuta atenta e estratégia jurídica para proteger seus direitos, em Igarapé, Minas Gerais.
+                Aposentadorias, BPC/LOAS e benefícios por incapacidade. Orientação jurídica com escuta e clareza para você e sua família, em Brasília de Minas, MG.
               </motion.p>
               <motion.div
                 variants={reveal}
@@ -296,7 +302,7 @@ export default function Home() {
                   size="lg"
                   className="rounded-none"
                 >
-                  <WhatsAppMark size={17} /> Fale com a Micaela
+                  <WhatsAppMark size={17} /> Fale com as advogadas
                 </PrimaryButton>
                 <a
                   href="#atuacao"
@@ -319,36 +325,22 @@ export default function Home() {
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <MessageCircle size={15} className="text-brand-700" />
-                  Família e Criminal
+                  Direito Previdenciário
                 </span>
                 <a href="#avaliacoes" className="inline-flex items-center gap-2 py-2 text-sm text-brand-700 underline underline-offset-4">
                   <ArrowUpRight size={15} aria-hidden="true" /> Conheça as avaliações
                 </a>
               </motion.div>
             </motion.div>
-            <motion.div
-              initial={false}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{
-                duration: 0.9,
-                delay: 0.16,
-                ease: [0.22, 1, 0.36, 1],
-              }}
-              className="relative mx-auto w-full max-w-[400px] lg:ml-auto lg:mr-0"
-            >
+            <motion.div initial={false} animate={{ opacity: 1 }} className="relative mx-auto w-full max-w-[460px] lg:ml-auto lg:mr-0">
               <figure className="hero-signature">
-                <Image
-                  src={brand.portrait}
-                  alt="Micaela Alves, advogada de Família e Criminal em Igarapé, Minas Gerais"
-                  width={633}
-                  height={729}
-                  preload
-                  sizes="(max-width: 450px) 90vw, 400px"
-                  className="h-auto w-full"
-                />
-                <figcaption className="flex flex-col gap-2 border-t border-silver/40 bg-brand-900 px-5 py-5 text-left leading-6 text-brand-100">
-                  <span className="font-sans text-sm font-semibold leading-6 tracking-[0.02em] text-white">Micaela Alves Advocacia</span>
-                  <span className="text-xs tracking-[0.06em]">{brand.registration} · Igarapé, MG</span>
+                <div className="hero-portraits grid grid-cols-[341fr_287fr] items-end gap-3 sm:gap-4">
+                  <Image src={brand.institutionalPhoto} alt="Registro de atuação institucional compartilhado por Cristiane & Kathia" width={341} height={510} preload sizes="(max-width: 640px) 48vw, 242px" className="h-auto w-full" />
+                  <Image src={brand.portrait} alt="Retrato profissional compartilhado por Cristiane & Kathia" width={287} height={510} preload sizes="(max-width: 640px) 40vw, 204px" className="h-auto w-full" />
+                </div>
+                <figcaption className="mt-5 flex flex-col gap-2 border-t border-gold/40 pt-5 text-left leading-6 text-brand-100">
+                  <span className="font-display text-2xl text-gold">Cristiane & Kathia</span>
+                  <span className="text-xs leading-6">Advocacia Previdenciária · Brasília de Minas, MG</span>
                 </figcaption>
               </figure>
             </motion.div>
@@ -362,7 +354,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl gap-6 px-5 py-7 sm:grid-cols-3 sm:gap-4 sm:px-8 lg:px-12">
             {[
               ["Escuta", "Sua história como ponto de partida"],
-              ["Proximidade", "Diálogo com a Micaela"],
+              ["Proximidade", "Diálogo com as advogadas"],
               ["Cuidado", "Sigilo e atenção em cada etapa"],
             ].map(([value, label], index) => (
               <div
@@ -404,7 +396,7 @@ export default function Home() {
                 <span className="text-brand-700">Atuação com cuidado.</span>
               </Heading>
               <p className="max-w-[250px] pb-1 text-xs leading-6 text-ink-soft">
-                Família, Criminal e ênfase em Violência Doméstica. Conheça as frentes de atuação e converse sobre o seu caso.
+                Aposentadorias, BPC/LOAS, TEA, benefícios por incapacidade e Direito Cível. Conheça nossa atuação.
               </p>
             </motion.div>
             <motion.div
@@ -457,18 +449,20 @@ export default function Home() {
 
         <section id="sobre" className="brand-about scroll-mt-28 bg-brand-950 py-20 sm:py-28 lg:py-32">
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-24 lg:px-12">
-            <figure className="mx-auto flex w-full max-w-[460px] flex-col justify-center bg-paper px-7 py-14 sm:px-10 lg:mx-0">
-              <Image src={brand.logo} alt="Micaela Alves Advocacia — logotipo original" width={2171} height={724} sizes="(max-width: 640px) 80vw, 380px" className="h-auto w-full" />
-              <figcaption className="mt-5 border-t border-brand-400/30 py-5 text-sm text-brand-100">Escuta. Estratégia. Proteção de direitos.</figcaption>
+            <figure className="mx-auto flex w-full max-w-[460px] flex-col justify-center border-y border-gold/30 py-12 sm:py-16 lg:mx-0">
+              <Image src={brand.logo} alt={brand.businessName} width={2172} height={724} sizes="(max-width: 640px) 90vw, 460px" className="h-auto w-full" />
+              <figcaption className="mt-8 text-center text-sm leading-7 text-brand-100">Escuta, clareza e compromisso com seus direitos.</figcaption>
             </figure>
             <div>
-              <Heading>Compromisso com o Direito.{" "}<span className="text-brand-700">Atenção às pessoas.</span></Heading>
-              <h3 className="about-wordmark mt-8 font-sans text-sm font-semibold uppercase leading-6 tracking-[0.08em] text-brand-800">Micaela Alves</h3>
-              <p className="about-tenure mt-3 text-xs font-medium leading-6 tracking-[0.04em] text-ink-soft">{brand.registration} · Igarapé, Minas Gerais</p>
-              <p className="mt-6 max-w-xl text-[15px] leading-7 text-ink-soft">Sou Micaela Alves, advogada em Igarapé, Minas Gerais. Atuo nas áreas de Família e Criminal, com ênfase em Violência Doméstica. Meu trabalho começa pela escuta: compreender a sua história é o primeiro passo para construir uma estratégia jurídica adequada à sua realidade.</p>
-              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Acredito em uma advocacia que aproxima o Direito das pessoas. Por isso, conduzo o atendimento com linguagem clara, sigilo e atenção às particularidades de cada situação, para que você compreenda as possibilidades e os próximos passos.</p>
-              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Histórias reais pedem cuidado e responsabilidade. É com esse compromisso que coloco a estratégia jurídica a serviço da proteção dos seus direitos.</p>
-              <a href={contact} target="_blank" rel="noopener noreferrer" className="about-link group mt-8 inline-flex min-h-11 items-center gap-2 border-b border-brand-700/40 py-2 text-sm font-semibold text-brand-800 transition-colors hover:text-brand-700">Conheça o atendimento <ArrowUpRight size={16} /></a>
+              <Heading>Duas advogadas. Uma dedicação:{" "}<span className="text-brand-700">a sua história.</span></Heading>
+              <p className="mt-6 max-w-xl text-[15px] leading-7 text-ink-soft">Cristiane e Kathia atuam na Advocacia Previdenciária em Brasília de Minas, Minas Gerais, com atenção às demandas de aposentadoria, BPC/LOAS, benefícios por incapacidade e aos direitos de pessoas com TEA. O escritório também atende questões de Direito Cível.</p>
+              <p className="mt-4 max-w-xl text-[15px] leading-7 text-ink-soft">Cada trajetória tem suas particularidades. Por isso, o atendimento começa pela escuta e pela análise dos documentos, com explicações acessíveis para que você compreenda as possibilidades e os próximos passos.</p>
+              <div className="mt-7 flex flex-col items-start gap-2 border-t border-gold/30 pt-5">
+                {brand.professionals.map((professional) => (
+                  <a key={professional.name} href={professional.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-3 text-sm text-gold underline-offset-4 hover:underline">{professional.name}<ArrowUpRight size={15} aria-hidden="true" /></a>
+                ))}
+              </div>
+              <a href={contact} target="_blank" rel="noopener noreferrer" className="about-link group mt-6 inline-flex min-h-11 items-center gap-2 border-b border-brand-700/40 py-2 text-sm font-semibold text-brand-800 transition-colors hover:text-brand-700">Converse com as advogadas <ArrowUpRight size={16} /></a>
             </div>
           </div>
         </section>
@@ -493,7 +487,7 @@ export default function Home() {
               {[
                 [
                   "Primeiro, a sua história",
-                  "Conte sua situação pelo WhatsApp e receba informações para agendar um atendimento com a Micaela em Igarapé.",
+                  "Conte sua situação pelo WhatsApp e receba informações para agendar um atendimento com as advogadas em Brasília de Minas.",
                 ],
                 [
                   "Depois, os documentos",
@@ -528,7 +522,7 @@ export default function Home() {
               {[
                 ["Como funciona o primeiro contato?", `Envie uma mensagem pelo WhatsApp ou ligue para ${brand.phone}. Conte brevemente sua situação para receber informações sobre o atendimento e os documentos iniciais necessários.`],
                 ["Onde fica o escritório?", `O escritório fica na ${brand.address}. Entre em contato para combinar sua visita.`],
-                ["Como agendar uma consulta?", "Fale com a Micaela pelo WhatsApp ou por telefone. Você receberá informações sobre a disponibilidade, a modalidade do atendimento e os documentos iniciais para sua demanda."],
+                ["Como agendar uma consulta?", "Fale com as advogadas pelo WhatsApp ou por telefone. Você receberá informações sobre a disponibilidade, a modalidade do atendimento e os documentos iniciais para sua demanda."],
                 ["Quais documentos devo separar?", "Os documentos variam conforme a situação. Documentos pessoais e registros relacionados à sua demanda podem ajudar na análise. No agendamento, você receberá orientação sobre o que apresentar para o seu caso."],
               ].map(([question, answer]) => (
                 <details key={question} className="group py-6">
@@ -543,21 +537,21 @@ export default function Home() {
         <section id="avaliacoes" className="scroll-mt-24 bg-paper py-20 sm:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
             <div className="grid items-center gap-10 lg:grid-cols-[1fr_0.8fr] lg:gap-24">
-            <Heading description="Conheça algumas experiências compartilhadas por quem já foi atendido pela Micaela Alves Advocacia.">
-              A confiança também se constrói <span className="text-brand-700">na escuta.</span>
+            <Heading description="Atenção, clareza e acolhimento nos relatos de quem conhece o escritório. Leia algumas experiências compartilhadas por clientes no Google.">
+              Confiança construída <span className="text-brand-700">no atendimento.</span>
             </Heading>
             <div className="border-y border-ink/15 py-8">
-              <h3 className="font-display text-2xl text-ink">Experiências no Google</h3>
-              <p className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm leading-7 text-ink">
+              <h3 className="font-display text-2xl text-ink">Cristiane & Kathia no Google</h3>
+              <p className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm leading-7 text-ink">
                 <span className="inline-flex items-center gap-2 font-semibold"><Star size={17} fill="currentColor" className="text-brand-700" aria-hidden="true" />{brand.googleRating.toFixed(1).replace(".", ",")} de 5</span>
                 <span className="text-ink-soft">{brand.googleReviewCount} avaliações no Google</span>
               </p>
               <a href={reviews} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-3 text-sm font-semibold text-brand-700 underline underline-offset-4 hover:text-ink">Ver todas as avaliações <ArrowUpRight size={17} aria-hidden="true" /></a>
             </div>
             </div>
-            <div className="mt-12 grid divide-y divide-ink/15 border-y border-ink/15 md:grid-cols-3 md:divide-x md:divide-y-0">
+            <div className="mt-12 grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-10">
               {googleReviews.map((review) => (
-                <figure key={review.author} className="flex min-w-0 flex-col gap-6 py-8 md:px-7 md:first:pl-0 md:last:pr-0">
+                <figure key={review.author} className="flex min-w-0 flex-col gap-6 border-t border-ink/15 py-8 sm:py-9">
                   <blockquote className="flex-1 text-base leading-8 text-ink">
                     <p>“{review.excerpt}”</p>
                   </blockquote>
@@ -565,7 +559,7 @@ export default function Home() {
                 </figure>
               ))}
             </div>
-            <p className="mt-5 text-xs leading-6 text-ink-soft">Trechos selecionados de avaliações no Google. Nota e quantidade registradas em {brand.googleReviewsProvidedOn}. Consulte os relatos completos e os dados atuais no perfil.</p>
+            <p className="border-t border-ink/15 pt-5 text-xs leading-6 text-ink-soft">Trechos selecionados de avaliações no Google. Nota e quantidade registradas em {brand.googleReviewsProvidedOn}. Consulte os relatos completos e os dados atuais no perfil.</p>
           </div>
         </section>
 
@@ -577,7 +571,7 @@ export default function Home() {
             <div>
               <Heading
 
-                description="Precisa de orientação em Família, Criminal ou Violência Doméstica? Entre em contato com a Micaela para receber informações sobre o atendimento."
+                description="Precisa de orientação em aposentadoria, BPC/LOAS, TEA, incapacidade ou Direito Cível? Converse com Cristiane e Kathia sobre o atendimento."
               >
                 Um primeiro contato com{" "}
                 <span className="text-brand-700">tranquilidade.</span>
@@ -589,7 +583,7 @@ export default function Home() {
                   size="lg"
                   className="rounded-none"
                 >
-                  <WhatsAppMark size={17} /> Fale com a Micaela
+                  <WhatsAppMark size={17} /> Fale com as advogadas
                 </PrimaryButton>
                 <a href={telephone} className="inline-flex min-h-11 items-center gap-2 text-sm text-brand-700 hover:text-brand-800"><Phone size={16} /> Ligue: {brand.phone}</a>
                 <a href={brand.instagram} target="_blank" rel="noopener noreferrer" className="contact-handle inline-flex min-h-11 max-w-full items-center gap-2 py-2 text-sm text-brand-700 hover:text-brand-800"><Camera size={16} /> {brand.instagramHandle}</a>
@@ -602,10 +596,10 @@ export default function Home() {
                   <MapPin size={21} strokeWidth={1.6} />
                 </span>
                 <div>
-                  <h3 className="font-display text-2xl text-ink">Nosso escritório em Igarapé</h3>
+                  <h3 className="font-display text-2xl text-ink">Nosso escritório em Brasília de Minas</h3>
                 </div>
               </div>
-              <p className="mt-6 text-sm font-semibold text-brand-700">Micaela Alves Advocacia</p>
+              <p className="mt-6 text-sm font-semibold text-brand-700">Cristiane & Kathia — Advocacia Previdenciária</p>
               <address className="mt-2 max-w-md not-italic text-[14px] leading-7 text-ink-soft">
                 {brand.address}
               </address>
@@ -648,10 +642,10 @@ export default function Home() {
         <footer className="brand-footer bg-brand-950 px-5 py-12 text-brand-100 sm:px-8 lg:px-12">
           <div className="mx-auto grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr_1fr]">
             <div>
-              <div className="inline-flex bg-paper px-3 py-1">
+              <div className="inline-flex py-1">
                 <Image
                   src={brand.logo}
-                  width={2171}
+                  width={2172}
                   height={724}
                   alt={brand.businessName}
                   className="h-auto w-[240px]"
@@ -659,7 +653,7 @@ export default function Home() {
                 />
               </div>
               <p className="mt-4 max-w-xs text-xs leading-6 text-ink-soft">
-                Advocacia de Família e Criminal, com ênfase em Violência Doméstica. Igarapé, Minas Gerais.
+                Advocacia Previdenciária e Cível. Atenção às pessoas e aos seus direitos, em Brasília de Minas, MG.
               </p>
             </div>
             <div>
@@ -671,7 +665,7 @@ export default function Home() {
                   Áreas de atuação
                 </a>
                 <a className="footer-link" href="#sobre">
-                  Sobre a Micaela
+                  Sobre as advogadas
                 </a>
                 <a className="footer-link" href="#avaliacoes">
                   Perfil no Google
@@ -711,7 +705,7 @@ export default function Home() {
               reservados.
             </p>
             <p>
-              {brand.registration}. Conteúdo informativo. Cada situação deve ser analisada
+              Conteúdo informativo. Cada situação deve ser analisada
               individualmente.
             </p>
           </div>
@@ -732,6 +726,7 @@ export default function Home() {
                 role="dialog"
                 aria-modal="true"
                 aria-labelledby="area-dialog-title"
+                aria-describedby="area-dialog-description"
                 initial={{ opacity: 0, y: 24, scale: 0.98 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: 16, scale: 0.99 }}
@@ -754,7 +749,7 @@ export default function Home() {
                 >
                   {activeArea.title}
                 </h2>
-                <p className="mt-5 text-sm leading-7 text-ink-soft">
+                <p id="area-dialog-description" className="mt-5 text-sm leading-7 text-ink-soft">
                   {activeArea.details}
                 </p>
                 <ul className="mt-6 space-y-3">
